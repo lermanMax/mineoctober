@@ -76,10 +76,6 @@ key_keybind.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.unknown
 key_key.contrats.open_my_contracts:key.keyboard.j
 key_betterstats.key_binding.toggle_hud_screen:key.keyboard.unknown
 key_key.antique_atlas.open:key.keyboard.unknown
-key_key.uselessreptile.flyDownKey:key.keyboard.unknown
-key_key.uselessreptile.primaryAttackKey:key.keyboard.g
-key_key.uselessreptile.secondaryAttackKey:key.keyboard.v
-key_key.uselessreptile.freeLookKey:key.keyboard.z
 key_zoomify.key.zoom:key.keyboard.c
 key_zoomify.key.zoom.secondary:key.keyboard.unknown
 key_artifacts.key.helium_flamingo.activate:key.keyboard.unknown
