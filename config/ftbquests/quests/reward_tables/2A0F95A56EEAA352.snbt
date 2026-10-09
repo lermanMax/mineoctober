@@ -198,8 +198,6 @@
 		{ id: "4EBA96C9B14FAEA5", item: { count: 1, id: "pastel:music_disc_divinity" } }
 		{ id: "52BEC426EFE32A85", item: { count: 1, id: "pastel:music_disc_credits" } }
 		{ id: "711C254DD574732D", item: { count: 1, id: "pastel:music_disc_discovery" } }
-		{ id: "7E6B1131D2E63686", item: { count: 1, id: "biomeswevegone:music_disc_better_days" } }
-		{ id: "2F0D907CF000CD09", item: { count: 1, id: "biomeswevegone:music_disc_pixie_club" } }
 		{ id: "248B08D87F1303F6", item: { count: 1, id: "irons_spellbooks:music_disc_dead_king_lullaby" } }
 		{ id: "08AA0F29D2993456", item: { count: 1, id: "friendsandfoes:music_disc_around_the_corner" } }
 		{ id: "362E43604B489C46", item: { count: 1, id: "create:blaze_cake" } }
@@ -291,7 +289,7 @@
 			id: "7E65748F1102840C"
 			item: {
 				count: 1
-				id: "biomeswevegone:spirit_planks"
+				id: "minecraft:dark_oak_planks"
 			}
 		}
 		{

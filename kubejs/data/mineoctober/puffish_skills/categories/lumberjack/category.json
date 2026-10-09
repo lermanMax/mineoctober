@@ -7,7 +7,7 @@
     "icon": {
         "type": "item",
         "data": {
-            "item": "biomeswevegone:aspen_log"
+            "item": "minecraft:birch_log"
         }
     },
     "background": {

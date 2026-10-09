@@ -1693,7 +1693,7 @@
 					id: "3AE89706776E4950"
 					item: {
 						count: 1
-						id: "biomeswevegone:redwood_sapling"
+						id: "minecraft:spruce_sapling"
 					}
 					type: "item"
 				}
@@ -1959,7 +1959,7 @@
 				{
 					count: 64L
 					id: "75F7045E57A98CEE"
-					item: { count: 1, id: "biomeswevegone:redwood_wood" }
+					item: { count: 1, id: "minecraft:spruce_wood" }
 					type: "item"
 				}
 				{
@@ -2055,7 +2055,7 @@
 				{
 					count: 64L
 					id: "781A3217D59A9A6C"
-					item: { count: 1, id: "biomeswevegone:redwood_wood" }
+					item: { count: 1, id: "minecraft:spruce_wood" }
 					type: "item"
 				}
 				{
@@ -4005,7 +4005,7 @@
 		{
 			dependencies: ["1816D6398C0FD745"]
 			icon: {
-				id: "biomeswevegone:fir_sapling"
+				id: "minecraft:spruce_sapling"
 			}
 			id: "2E5AFF2E47FC2A48"
 			rewards: [
@@ -4092,7 +4092,7 @@
 		{
 			dependencies: ["1816D6398C0FD745"]
 			icon: {
-				id: "biomeswevegone:fir_sapling"
+				id: "minecraft:spruce_sapling"
 			}
 			id: "6B12DD0AB61FD62F"
 			rewards: [
@@ -7179,7 +7179,7 @@
 		{
 			dependencies: ["638279905104DB6D"]
 			icon: {
-				id: "biomeswevegone:tall_prairie_grass"
+				id: "minecraft:tall_grass"
 			}
 			id: "456F1164B80330A9"
 			rewards: [
@@ -7416,7 +7416,7 @@
 		{
 			dependencies: ["1752A72290321BB2"]
 			icon: {
-				id: "biomeswevegone:tall_prairie_grass"
+				id: "minecraft:tall_grass"
 			}
 			id: "1D40364D971AE093"
 			rewards: [
@@ -11337,7 +11337,7 @@
 		{
 			dependencies: ["314CC1CA5FA1CC9F"]
 			icon: {
-				id: "biomeswevegone:lush_farmland"
+				id: "minecraft:farmland"
 			}
 			id: "5D8EBFC49ABBBFF6"
 			rewards: [
@@ -12474,7 +12474,7 @@
 		{
 			dependencies: ["314CC1CA5FA1CC9F"]
 			icon: {
-				id: "biomeswevegone:prairie_grass"
+				id: "minecraft:short_grass"
 			}
 			id: "5780953885A3F0A7"
 			rewards: [

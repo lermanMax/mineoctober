@@ -96,7 +96,7 @@
 							{
 								"type": "puffish_skills:test",
 								"data": {
-									"block": "biomeswevegone:pale_pumpkin"
+									"block": "minecraft:pumpkin"
 								}
 							}
 						]
