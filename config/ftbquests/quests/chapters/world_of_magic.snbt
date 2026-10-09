@@ -4092,7 +4092,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["32504A5361DEC4C7"]
+			dependencies: ["4F4496330FB45B35"]
 			hide_until_deps_visible: true
 			id: "645BA3F09C087441"
 			rewards: [
@@ -4113,8 +4113,8 @@
 				item: { count: 1, id: "pastel:gilded_book" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: -3.0d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["36F19B05F3EF16DD"]
@@ -4307,8 +4307,8 @@
 					type: "item"
 				}
 			]
-			x: -5.952380952380956d
-			y: -9.458333333333325d
+			x: -6.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["0A97002C0AAB4075"]
@@ -4344,13 +4344,15 @@
 				table_id: 5901057256958333207L
 				type: "random"
 			}]
+			shape: "rsquare"
+			size: 1.2d
 			tasks: [{
 				id: "7F72CB08DF5DBB8E"
 				item: { count: 1, id: "pastel:crystallarieum" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: -9.5d
+			x: -6.0d
+			y: -11.5d
 		}
 		{
 			dependencies: ["32C2C0ED967ABE95"]
@@ -4449,6 +4451,7 @@
 				"2515D5F085C2C2ED"
 				"1F919EBE1EF59F4E"
 			]
+			hide_until_deps_complete: true
 			id: "16F48CE9D5FB369A"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -4487,7 +4490,7 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["2F5ACCEAE15AC931"]
+			dependencies: ["0C4A66580A9534CE"]
 			id: "698EC6095CB3096B"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -4501,7 +4504,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -7.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["2F5ACCEAE15AC931"]
@@ -4518,7 +4521,7 @@
 				item: { count: 1, id: "pastel:nectardew_burgeon" }
 				type: "item"
 			}]
-			x: -3.0d
+			x: -4.0d
 			y: -7.5d
 		}
 		{

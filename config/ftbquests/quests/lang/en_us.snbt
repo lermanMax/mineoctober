@@ -373,12 +373,6 @@
 	]
 	quest.066BB2CD6A4C045C.quest_subtitle: "Ruler of a Province"
 	quest.066BB2CD6A4C045C.title: "Countess"
-	quest.067F13A99F83FDC2.quest_desc: [
-		"You govern multiple counties, command thousands, and advise the crown. Your court is a center of politics, and your castle—an impregnable fortress. A duke is not merely nobility but a pillar of the throne."
-		"Prove your loyalty and strength—and you will be proclaimed His Majesty!"
-	]
-	quest.067F13A99F83FDC2.quest_subtitle: "Major Landholder"
-	quest.067F13A99F83FDC2.title: "Duke"
 	quest.07297B0121A2DCF0.quest_desc: [
 		"Place the track and right-click it with a station block. Place the station block near the track."
 		""
@@ -1290,12 +1284,6 @@
 		"It supports redstone control and connects to the network like other devices."
 	]
 	quest.1A2605092B8B7F37.quest_subtitle: "Craft any Golden Chest type."
-	quest.1A700297B30F2B99.quest_desc: [
-		"Your domain now includes villages, artisan settlements, and mines. You build a castle, collect taxes, and lead your retinue into battle. Your name is known beyond your lands."
-		"Develop your economy and army—and you will be appointed Duke!"
-	]
-	quest.1A700297B30F2B99.quest_subtitle: "Ruler of a Province"
-	quest.1A700297B30F2B99.title: "Count"
 	quest.1ABB0B317DB25015.quest_desc: [
 		"- Smaller version of supply cart"
 		"- 27 slots of inventory space"
@@ -5839,7 +5827,6 @@
 	]
 	quest.7A47716BA89E7B06.title: "Color Applicator"
 	quest.7A516A80B0491E03.quest_subtitle: "x4"
-	quest.7A88CA7AAEBB9E99.quest_subtitle: "They're pretty awesome."
 	quest.7A8D89E446B6FBE8.quest_desc: [
 		"If you need to integrate storage from different areas into your main system, the &6Storage Link&r is your solution."
 		""
@@ -6073,6 +6060,7 @@
 	reward.0597ACFE03712332.title: "King's Sword"
 	reward.082EC17DFBA69F60.title: "Mongol Bow"
 	reward.08823D34FF28C549.title: "Pontifex's Gladius"
+	reward.09C22B95D47ED65D.title: "Unlock Explorer Category"
 	reward.0BCB0BC557172462.title: "Excalibur"
 	reward.0E01D63CFE21B927.title: "Reset"
 	reward.0EDA4A2C6D2D0E7E.title: "Exarchessa's Sword"
@@ -6107,6 +6095,7 @@
 	reward.34B1034384FD5CCE.title: "High Priestess's Armor"
 	reward.34F33CEA2F200DF2.title: "Ruler's Sword"
 	reward.352BA7F0A4D87D42.title: "Strategos' Sword"
+	reward.354731815003866B.title: "Unlock Miner Category"
 	reward.35F1BB46D75D36EE.title: "Saint's Garments"
 	reward.37A67FFA9BAA4E0E.title: "Reset"
 	reward.3B866038F0C12265.title: "Spatha"
@@ -6126,11 +6115,14 @@
 	reward.4BB028639A3E8B7C.title: "Guardian"
 	reward.4BBBA0132B68CF0C.title: "Saint"
 	reward.4D17B94EEACABE7F.title: "Duke's Sword"
+	reward.4D5B50F9D01388FE.title: "Unlock Combat Category"
+	reward.4D93CA08FBA51A44.title: "Unlock Farmer Category"
 	reward.4D9AF89EC7DE6C78.title: "High Priest's Helmet"
 	reward.4DEE317949C273ED.title: "Domostroy"
 	reward.4E52FAAE75A1C772.title: "Pontifex Maximus's Gladius"
 	reward.50D3219DF4DD5241.title: "Baroness's Sword"
 	reward.52B06556547ACF85.title: "Basilissa's Crown"
+	reward.531E0EDA88E95A53.title: "Unlock Lumberjack Category"
 	reward.538A0D031FE397F7.title: "First of the Romans"
 	reward.5408612DC5CB687C.title: "Phidias' Pickaxe"
 	reward.55992ADACA3C5DA5.title: "Kara-Khitai Bow"

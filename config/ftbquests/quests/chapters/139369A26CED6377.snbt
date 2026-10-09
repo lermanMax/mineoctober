@@ -8,7 +8,7 @@
 	group: ""
 	hide_quest_until_deps_complete: true
 	icon: {
-		id: "minecraft:cherry_sapling"
+		id: "biomeswevegone:white_sakura_sapling"
 	}
 	id: "139369A26CED6377"
 	images: [
@@ -66,7 +66,7 @@
 			dependencies: ["7E735829C70E829F"]
 			disable_toast: true
 			icon: {
-				id: "minecraft:birch_log"
+				id: "biomeswevegone:aspen_log"
 			}
 			id: "69DCCD0BB312EF6D"
 			optional: true
@@ -279,6 +279,7 @@
 					id: "minecraft:command_block_minecart"
 				}
 				id: "14E8346391367663"
+				permission_level: 2
 				silent: true
 				type: "command"
 			}]
@@ -314,6 +315,7 @@
 					id: "minecraft:command_block_minecart"
 				}
 				id: "0258A2F4E51A3AF0"
+				permission_level: 2
 				silent: true
 				type: "command"
 			}]
@@ -349,6 +351,7 @@
 					id: "minecraft:command_block_minecart"
 				}
 				id: "569C0476A6BFB444"
+				permission_level: 2
 				silent: true
 				type: "command"
 			}]
@@ -384,6 +387,7 @@
 					id: "minecraft:command_block_minecart"
 				}
 				id: "0E01D63CFE21B927"
+				permission_level: 2
 				silent: true
 				type: "command"
 			}]
@@ -419,6 +423,7 @@
 					id: "minecraft:command_block_minecart"
 				}
 				id: "37A67FFA9BAA4E0E"
+				permission_level: 2
 				silent: true
 				type: "command"
 			}]

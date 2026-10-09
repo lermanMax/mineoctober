@@ -1693,7 +1693,7 @@
 					id: "3AE89706776E4950"
 					item: {
 						count: 1
-						id: "minecraft:spruce_sapling"
+						id: "biomeswevegone:redwood_sapling"
 					}
 					type: "item"
 				}
@@ -1727,9 +1727,8 @@
 					value: 10
 				}
 				{
-					count: 64L
 					id: "3291067D270D1E44"
-					item: { count: 1, id: "minecraft:oak_log" }
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
@@ -1959,7 +1958,7 @@
 				{
 					count: 64L
 					id: "75F7045E57A98CEE"
-					item: { count: 1, id: "minecraft:spruce_wood" }
+					item: { count: 1, id: "biomeswevegone:redwood_wood" }
 					type: "item"
 				}
 				{
@@ -2055,7 +2054,7 @@
 				{
 					count: 64L
 					id: "781A3217D59A9A6C"
-					item: { count: 1, id: "minecraft:spruce_wood" }
+					item: { count: 1, id: "biomeswevegone:redwood_wood" }
 					type: "item"
 				}
 				{
@@ -3159,7 +3158,7 @@
 						id: "minecraft:grindstone"
 					}
 					id: "35CA36FCA368EA39"
-					stat: "minecraft:clean_armor"
+					stat: "minecraft:interact_with_grindstone"
 					type: "stat"
 					value: 5
 				}
@@ -3231,7 +3230,7 @@
 						id: "minecraft:grindstone"
 					}
 					id: "3D85DA6681FBFB09"
-					stat: "minecraft:clean_armor"
+					stat: "minecraft:interact_with_grindstone"
 					type: "stat"
 					value: 5
 				}
@@ -3299,7 +3298,7 @@
 						id: "minecraft:grindstone"
 					}
 					id: "58D2E88701C833F9"
-					stat: "minecraft:clean_armor"
+					stat: "minecraft:interact_with_grindstone"
 					type: "stat"
 					value: 20
 				}
@@ -3380,7 +3379,7 @@
 						id: "minecraft:grindstone"
 					}
 					id: "22C339DD00D85E64"
-					stat: "minecraft:clean_armor"
+					stat: "minecraft:interact_with_grindstone"
 					type: "stat"
 					value: 25
 				}
@@ -3461,7 +3460,7 @@
 						id: "minecraft:grindstone"
 					}
 					id: "0D1FCAFCF1A770A2"
-					stat: "minecraft:clean_armor"
+					stat: "minecraft:interact_with_grindstone"
 					type: "stat"
 					value: 25
 				}
@@ -4005,7 +4004,7 @@
 		{
 			dependencies: ["1816D6398C0FD745"]
 			icon: {
-				id: "minecraft:spruce_sapling"
+				id: "biomeswevegone:fir_sapling"
 			}
 			id: "2E5AFF2E47FC2A48"
 			rewards: [
@@ -4092,7 +4091,7 @@
 		{
 			dependencies: ["1816D6398C0FD745"]
 			icon: {
-				id: "minecraft:spruce_sapling"
+				id: "biomeswevegone:fir_sapling"
 			}
 			id: "6B12DD0AB61FD62F"
 			rewards: [
@@ -7179,7 +7178,7 @@
 		{
 			dependencies: ["638279905104DB6D"]
 			icon: {
-				id: "minecraft:tall_grass"
+				id: "biomeswevegone:tall_prairie_grass"
 			}
 			id: "456F1164B80330A9"
 			rewards: [
@@ -7416,7 +7415,7 @@
 		{
 			dependencies: ["1752A72290321BB2"]
 			icon: {
-				id: "minecraft:tall_grass"
+				id: "biomeswevegone:tall_prairie_grass"
 			}
 			id: "1D40364D971AE093"
 			rewards: [
@@ -7849,7 +7848,7 @@
 					type: "command"
 				}
 				{
-					command: "/team join duke_feudal_mughal_male"
+					command: "/team join king_feudal_mughal_male"
 					icon: {
 						id: "irons_spellbooks:lightning_rod"
 					}
@@ -8114,7 +8113,7 @@
 					type: "command"
 				}
 				{
-					command: "/team join duke_feudal_mughal_female"
+					command: "/team join king_feudal_mughal_female"
 					icon: {
 						id: "irons_spellbooks:lightning_rod"
 					}
@@ -11337,7 +11336,7 @@
 		{
 			dependencies: ["314CC1CA5FA1CC9F"]
 			icon: {
-				id: "minecraft:farmland"
+				id: "biomeswevegone:lush_farmland"
 			}
 			id: "5D8EBFC49ABBBFF6"
 			rewards: [
@@ -11992,13 +11991,13 @@
 				{
 					count: 128L
 					id: "16212D0488BB630E"
-					item: { count: 1, id: "minecraft:terracotta" }
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:terracotta)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
-					count: 256L
+					count: 128L
 					id: "7D233B51C1836C0D"
-					item: { count: 1, id: "minecraft:smooth_sandstone" }
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:sandstone/blocks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
@@ -12289,14 +12288,14 @@
 				}
 				{
 					count: 128L
-					id: "713D3FF94C78F880"
-					item: { count: 1, id: "minecraft:terracotta" }
+					id: "3355628F0704E3D4"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:terracotta)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
-					count: 256L
-					id: "27058CE647A260AF"
-					item: { count: 1, id: "minecraft:smooth_sandstone" }
+					count: 128L
+					id: "1D5EE258F9B2B589"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:sandstone/blocks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
@@ -12474,7 +12473,7 @@
 		{
 			dependencies: ["314CC1CA5FA1CC9F"]
 			icon: {
-				id: "minecraft:short_grass"
+				id: "biomeswevegone:prairie_grass"
 			}
 			id: "5780953885A3F0A7"
 			rewards: [
@@ -12988,7 +12987,7 @@
 						id: "minecraft:grindstone"
 					}
 					id: "01BD6D32522DBA01"
-					stat: "minecraft:clean_armor"
+					stat: "minecraft:interact_with_grindstone"
 					type: "stat"
 					value: 15
 				}
@@ -13970,6 +13969,1827 @@
 			]
 			x: 4.5d
 			y: -14.0d
+		}
+		{
+			icon: {
+				id: "minecraft:bricks"
+			}
+			id: "6E98D99100C4E667"
+			rewards: [
+				{
+					id: "3F4163F749E10F98"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "5935F1BB82599B2C"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:efficiency": 3
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+				{
+					command: "/team join baron_republic_roman_male"
+					icon: {
+						id: "supplementaries:bunting_green"
+					}
+					id: "6AC00353793862EC"
+					permission_level: 2
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						id: "minecraft:furnace"
+					}
+					id: "6E506B1B0B7DA2C2"
+					stat: "minecraft:interact_with_furnace"
+					type: "stat"
+					value: 60
+				}
+				{
+					count: 256L
+					id: "676397249E5E49EE"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:stone_crafting_materials)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					icon: {
+						id: "minecraft:stonecutter"
+					}
+					id: "3E76B686C83F7D38"
+					stat: "minecraft:interact_with_stonecutter"
+					type: "stat"
+					value: 75
+				}
+				{
+					id: "40E3D29C49D113E5"
+					type: "checkmark"
+				}
+			]
+			x: 8.0d
+			y: -8.0d
+		}
+		{
+			icon: {
+				id: "minecraft:bricks"
+			}
+			id: "36119A946958E425"
+			rewards: [
+				{
+					id: "0EE5C488E85D06FD"
+					type: "xp"
+					xp: 3
+				}
+				{
+					id: "65C8BD5D6B188FBC"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:efficiency": 3
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+				{
+					command: "/team join baron_republic_roman_female"
+					icon: {
+						id: "supplementaries:bunting_green"
+					}
+					id: "24B2D41184231B26"
+					permission_level: 2
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						id: "minecraft:furnace"
+					}
+					id: "69DA199405BD8CE8"
+					stat: "minecraft:interact_with_furnace"
+					type: "stat"
+					value: 60
+				}
+				{
+					count: 256L
+					id: "7042D0934F2EB09E"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:stone_crafting_materials)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					icon: {
+						id: "minecraft:stonecutter"
+					}
+					id: "1EB205AAC9267E35"
+					stat: "minecraft:interact_with_stonecutter"
+					type: "stat"
+					value: 75
+				}
+				{
+					id: "28D5C30C5BFFB5F7"
+					type: "checkmark"
+				}
+			]
+			x: 10.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"36119A946958E425"
+				"6E98D99100C4E667"
+			]
+			dependency_requirement: "one_completed"
+			icon: {
+				id: "handcrafted:bricks_pillar_trim"
+			}
+			id: "1C3AA06BD9FA7154"
+			rewards: [
+				{
+					id: "5457FF2891C09D2B"
+					type: "xp"
+					xp: 7
+				}
+				{
+					id: "479A030139B706C4"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:silk_touch": 1
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+				{
+					command: "/team join count_republic_roman"
+					icon: {
+						id: "minecraft:green_banner"
+					}
+					id: "4828AF0ACCBCB55A"
+					permission_level: 2
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						id: "minecraft:furnace"
+					}
+					id: "5BA721AD86A416C0"
+					stat: "minecraft:interact_with_furnace"
+					type: "stat"
+					value: 120
+				}
+				{
+					icon: {
+						id: "minecraft:stonecutter"
+					}
+					id: "74A58087D59706DA"
+					stat: "minecraft:interact_with_stonecutter"
+					type: "stat"
+					value: 125
+				}
+				{
+					advancement: "minecraft:adventure/hero_of_the_village"
+					criterion: ""
+					id: "576996622BE7352C"
+					type: "advancement"
+				}
+				{
+					icon: {
+						components: {
+							"relics:data": {
+								abilities: {
+									abilities: {
+										gills: {
+											extender: {
+												cooldown: 0
+												cooldownCap: 0
+												ticking: 0b
+											}
+											lock: {
+												breaks: 5
+											}
+											points: 0
+											research: {
+												links: { }
+												researched: 0b
+											}
+											stats: {
+												chance: {
+													initialValue: 0.06103d
+												}
+											}
+										}
+										slipping: {
+											extender: {
+												cooldown: 0
+												cooldownCap: 0
+												ticking: 0b
+											}
+											lock: {
+												breaks: 5
+											}
+											points: 0
+											research: {
+												links: { }
+												researched: 0b
+											}
+											stats: {
+												duration: {
+													initialValue: 24.38369d
+												}
+												speed: {
+													initialValue: 0.00918d
+												}
+											}
+										}
+										swimming: {
+											extender: {
+												cooldown: 0
+												cooldownCap: 0
+												ticking: 0b
+											}
+											lock: {
+												breaks: 5
+											}
+											points: 0
+											research: {
+												links: { }
+												researched: 0b
+											}
+											stats: {
+												duration: {
+													initialValue: 18.45086d
+												}
+												speed: {
+													initialValue: 0.00872d
+												}
+											}
+										}
+									}
+								}
+								leveling: {
+									experience: 0
+									level: 0
+									luck: 0
+									points: 0
+								}
+							}
+						}
+						id: "relics:amphibian_boot"
+					}
+					id: "6481867E763F4041"
+					stat: "minecraft:sprint_one_cm"
+					type: "stat"
+					value: 4000
+				}
+				{
+					id: "67E6106A7D0B78CC"
+					type: "checkmark"
+				}
+			]
+			x: 9.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["1C3AA06BD9FA7154"]
+			dependency_requirement: "one_completed"
+			icon: {
+				id: "mcwpaths:brick_diamond_paving"
+			}
+			id: "4355AFF10726C99A"
+			rewards: [
+				{
+					id: "1418A34DD928ACF6"
+					type: "xp"
+					xp: 16
+				}
+				{
+					id: "26F263428C6CA850"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:efficiency": 5
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+				{
+					command: "/team join duke_republic_roman"
+					icon: {
+						id: "supplementaries:flag_green"
+					}
+					id: "39AC316EA572D1E0"
+					permission_level: 2
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						id: "minecraft:stonecutter"
+					}
+					id: "3016841FCBB6F25E"
+					stat: "minecraft:interact_with_stonecutter"
+					type: "stat"
+					value: 200
+				}
+				{
+					icon: {
+						components: {
+							"relics:data": {
+								abilities: {
+									abilities: {
+										gills: {
+											extender: {
+												cooldown: 0
+												cooldownCap: 0
+												ticking: 0b
+											}
+											lock: {
+												breaks: 5
+											}
+											points: 0
+											research: {
+												links: { }
+												researched: 0b
+											}
+											stats: {
+												chance: {
+													initialValue: 0.06103d
+												}
+											}
+										}
+										slipping: {
+											extender: {
+												cooldown: 0
+												cooldownCap: 0
+												ticking: 0b
+											}
+											lock: {
+												breaks: 5
+											}
+											points: 0
+											research: {
+												links: { }
+												researched: 0b
+											}
+											stats: {
+												duration: {
+													initialValue: 24.38369d
+												}
+												speed: {
+													initialValue: 0.00918d
+												}
+											}
+										}
+										swimming: {
+											extender: {
+												cooldown: 0
+												cooldownCap: 0
+												ticking: 0b
+											}
+											lock: {
+												breaks: 5
+											}
+											points: 0
+											research: {
+												links: { }
+												researched: 0b
+											}
+											stats: {
+												duration: {
+													initialValue: 18.45086d
+												}
+												speed: {
+													initialValue: 0.00872d
+												}
+											}
+										}
+									}
+								}
+								leveling: {
+									experience: 0
+									level: 0
+									luck: 0
+									points: 0
+								}
+							}
+						}
+						id: "relics:amphibian_boot"
+					}
+					id: "59EE9898DAE69DE1"
+					stat: "minecraft:sprint_one_cm"
+					type: "stat"
+					value: 6000
+				}
+				{
+					icon: {
+						id: "create:schematic_and_quill"
+					}
+					id: "3FF4822FA074A735"
+					stat: "minecraft:traded_with_villager"
+					type: "stat"
+					value: 75
+				}
+				{
+					icon: {
+						id: "plushies:pillager_plushie"
+					}
+					id: "414C0D59227466F3"
+					stat: "minecraft:raid_win"
+					type: "stat"
+					value: 5
+				}
+				{
+					id: "1CA49D2E1809F2FA"
+					type: "checkmark"
+				}
+			]
+			x: 9.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["4355AFF10726C99A"]
+			dependency_requirement: "one_completed"
+			icon: {
+				id: "mcwroofs:bricks_upper_steep_roof"
+			}
+			id: "4502D4F31F9BFBB5"
+			rewards: [
+				{
+					id: "0ABB72A8A6289EE2"
+					type: "xp"
+					xp: 16
+				}
+				{
+					command: "/give @s diamond_pickaxe[custom_name='[\"\",{\"text\":\"Роната\",\"italic\":false}]',rarity=rare,enchantments={levels:{efficiency:5,mending:1,silk_touch:1,unbreaking:3}}]"
+					icon: {
+						id: "minecraft:diamond_pickaxe"
+					}
+					id: "6493B74A15F32D5B"
+					permission_level: 2
+					type: "command"
+				}
+				{
+					command: "/team join king_republic_roman"
+					icon: {
+						id: "supplementaries:globe_sepia"
+					}
+					id: "28B4ACB293AD7C62"
+					permission_level: 2
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					count: 512L
+					id: "2EB8CA7C80B5037F"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:stones)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					icon: {
+						components: {
+							"relics:data": {
+								abilities: {
+									abilities: {
+										gills: {
+											extender: {
+												cooldown: 0
+												cooldownCap: 0
+												ticking: 0b
+											}
+											lock: {
+												breaks: 5
+											}
+											points: 0
+											research: {
+												links: { }
+												researched: 0b
+											}
+											stats: {
+												chance: {
+													initialValue: 0.06103d
+												}
+											}
+										}
+										slipping: {
+											extender: {
+												cooldown: 0
+												cooldownCap: 0
+												ticking: 0b
+											}
+											lock: {
+												breaks: 5
+											}
+											points: 0
+											research: {
+												links: { }
+												researched: 0b
+											}
+											stats: {
+												duration: {
+													initialValue: 24.38369d
+												}
+												speed: {
+													initialValue: 0.00918d
+												}
+											}
+										}
+										swimming: {
+											extender: {
+												cooldown: 0
+												cooldownCap: 0
+												ticking: 0b
+											}
+											lock: {
+												breaks: 5
+											}
+											points: 0
+											research: {
+												links: { }
+												researched: 0b
+											}
+											stats: {
+												duration: {
+													initialValue: 18.45086d
+												}
+												speed: {
+													initialValue: 0.00872d
+												}
+											}
+										}
+									}
+								}
+								leveling: {
+									experience: 0
+									level: 0
+									luck: 0
+									points: 0
+								}
+							}
+						}
+						id: "relics:amphibian_boot"
+					}
+					id: "5BDF4DAAE9E06C11"
+					stat: "minecraft:sprint_one_cm"
+					type: "stat"
+					value: 9000
+				}
+				{
+					icon: {
+						id: "minecraft:writable_book"
+					}
+					id: "1C7BF52A53E2813B"
+					stat: "minecraft:traded_with_villager"
+					type: "stat"
+					value: 125
+				}
+				{
+					id: "637FDF0F858D56FB"
+					type: "checkmark"
+				}
+			]
+			x: 9.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["314CC1CA5FA1CC9F"]
+			icon: {
+				id: "minecraft:netherite_helmet"
+			}
+			id: "1D2BA44652584BED"
+			rewards: [{
+				id: "2BDAA7203EB3E972"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			tasks: [
+				{
+					icon: {
+						id: "minecraft:iron_sword"
+					}
+					id: "7BD1A93A3D564B94"
+					stat: "minecraft:mob_kills"
+					type: "stat"
+					value: 100
+				}
+				{
+					icon: {
+						id: "minecraft:skeleton_skull"
+					}
+					id: "63CEFF76BED3CC8F"
+					stat: "minecraft:deaths"
+					type: "stat"
+					value: 5
+				}
+				{
+					id: "1FE994690CD8A4D3"
+					type: "checkmark"
+				}
+			]
+			x: -26.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1D2BA44652584BED"]
+			icon: {
+				id: "minecraft:shield"
+			}
+			id: "6EFDBE2DD359AF37"
+			rewards: [
+				{
+					id: "484FF80EBDE7A728"
+					type: "xp_levels"
+					xp_levels: 22
+				}
+				{
+					command: "/give @s iron_sword[custom_name='[\"\",{\"text\":\"Гладиус\",\"italic\":false}]',rarity=uncommon,enchantments={levels:{looting:1,sharpness:3,sweeping_edge:2,unbreaking:2}}]"
+					icon: {
+						id: "minecraft:iron_sword"
+					}
+					id: "5300A6734518D6F8"
+					permission_level: 2
+					type: "command"
+				}
+				{
+					command: "/give @s shield[custom_name='[\"\",{\"text\":\"Щит мурмиллона\",\"italic\":false}]',rarity=rare,enchantments={levels:{mending:1,unbreaking:3}}]"
+					icon: {
+						id: "minecraft:shield"
+					}
+					id: "1DB53367688D42CC"
+					permission_level: 2
+					type: "command"
+				}
+				{
+					command: "/give @s netherite_helmet[trim={pattern:sentry,material:redstone},custom_name='[\"\",{\"text\":\"Шлем с рыбьим гребнем\",\"italic\":false}]',rarity=epic,enchantments={levels:{mending:1,protection:4,thorns:3,unbreaking:3}}]"
+					icon: {
+						id: "minecraft:netherite_helmet"
+					}
+					id: "3AAC9135DC9D4BA5"
+					permission_level: 2
+					type: "command"
+				}
+				{
+					command: "/team join murmillo_warrior_roman"
+					icon: {
+						id: "supplementaries:bunting_black"
+					}
+					id: "645E6A0E0B8744FE"
+					permission_level: 2
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						id: "minecraft:netherite_sword"
+					}
+					id: "65A7AF32D5EE98A4"
+					stat: "minecraft:mob_kills"
+					type: "stat"
+					value: 500
+				}
+				{
+					icon: {
+						id: "minecraft:shield"
+					}
+					id: "658D7A3EAE449E96"
+					stat: "minecraft:damage_absorbed"
+					type: "stat"
+					value: 750
+				}
+				{
+					id: "7BC343E7BB540469"
+					type: "checkmark"
+				}
+			]
+			x: -28.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1D2BA44652584BED"]
+			icon: {
+				id: "minecraft:trident"
+			}
+			id: "1E035D13F15D5109"
+			rewards: [
+				{
+					id: "745982DBFE873DD8"
+					type: "xp_levels"
+					xp_levels: 22
+				}
+				{
+					command: "/give @s trident[custom_name='[\"\",{\"text\":\"Вилы ретиария\",\"italic\":false}]',rarity=epic,enchantments={levels:{impaling:5,mending:1,riptide:3,unbreaking:3}}]"
+					icon: {
+						id: "minecraft:trident"
+					}
+					id: "59CC3C14C209625A"
+					permission_level: 2
+					type: "command"
+				}
+				{
+					command: "/give @s fishing_rod[custom_name='[\"\",{\"text\":\"Удочка ретиария\",\"italic\":false}]',rarity=epic,enchantments={levels:{luck_of_the_sea:3,lure:3,unbreaking:3}}]"
+					icon: {
+						id: "minecraft:fishing_rod"
+					}
+					id: "1558C61419D0D1EB"
+					permission_level: 2
+					type: "command"
+				}
+				{
+					command: "/team join retiarius_warrior_roman"
+					icon: {
+						id: "supplementaries:bunting_black"
+					}
+					id: "70434751EE952F55"
+					permission_level: 2
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						id: "minecraft:cod"
+					}
+					id: "0C15D270CB95503E"
+					stat: "minecraft:fish_caught"
+					type: "stat"
+					value: 80
+				}
+				{
+					icon: {
+						id: "minecraft:golden_sword"
+					}
+					id: "1BEB4DC913A9EB4E"
+					stat: "minecraft:mob_kills"
+					type: "stat"
+					value: 250
+				}
+				{
+					icon: {
+						id: "minecraft:campfire"
+					}
+					id: "466DBD0F91449A01"
+					stat: "minecraft:interact_with_campfire"
+					type: "stat"
+					value: 100
+				}
+				{
+					id: "2901A5CD4B7D484D"
+					type: "checkmark"
+				}
+			]
+			x: -28.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1D2BA44652584BED"]
+			icon: {
+				id: "minecraft:saddle"
+			}
+			id: "162446B80D846960"
+			rewards: [
+				{
+					id: "7DE396BC6DADB27F"
+					type: "xp_levels"
+					xp_levels: 22
+				}
+				{
+					command: "/give @s iron_sword[custom_name='[\"\",{\"text\":\"Гладиус\",\"italic\":false}]',rarity=uncommon,enchantments={levels:{looting:1,sharpness:3,sweeping_edge:2,unbreaking:2}}]"
+					icon: {
+						id: "minecraft:iron_sword"
+					}
+					id: "7F8EC07161A0DA2D"
+					permission_level: 2
+					type: "command"
+				}
+				{
+					command: "/give @s netherite_helmet[trim={pattern:raiser,material:redstone},custom_name='[\"\",{\"text\":\"Гладкий шлем эквита\",\"italic\":false}]',rarity=epic,enchantments={levels:{mending:1,protection:4,thorns:3,unbreaking:3}}]"
+					icon: {
+						id: "minecraft:netherite_helmet"
+					}
+					id: "466408AE84F89ECD"
+					permission_level: 2
+					type: "command"
+				}
+				{
+					id: "73494A681F878C92"
+					item: {
+						count: 1
+						id: "minecraft:diamond_horse_armor"
+					}
+					type: "item"
+				}
+				{
+					command: "/team join eques_warrior_roman"
+					icon: {
+						id: "supplementaries:bunting_black"
+					}
+					id: "600D46A61E53FDE5"
+					permission_level: 2
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						id: "plushies:horse_plushie"
+					}
+					id: "0ACC7A83FD58B745"
+					stat: "minecraft:horse_one_cm"
+					type: "stat"
+					value: 8000
+				}
+				{
+					icon: {
+						id: "minecraft:diamond_sword"
+					}
+					id: "4E214D4ADEEE7D52"
+					stat: "minecraft:mob_kills"
+					type: "stat"
+					value: 350
+				}
+				{
+					icon: {
+						id: "minecraft:shield"
+					}
+					id: "7AB97391A62088D0"
+					stat: "minecraft:damage_absorbed"
+					type: "stat"
+					value: 500
+				}
+				{
+					id: "73CE0780723BDFEF"
+					type: "checkmark"
+				}
+			]
+			x: -28.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1D2BA44652584BED"]
+			icon: {
+				id: "handcrafted:wolf_trophy"
+			}
+			id: "42E7641E2640D99A"
+			rewards: [
+				{
+					id: "2564DFDFC5CBDBF7"
+					type: "xp_levels"
+					xp_levels: 22
+				}
+				{
+					command: "/give @s iron_sword[custom_name='[\"\",{\"text\":\"Гладиус\",\"italic\":false}]',rarity=uncommon,enchantments={levels:{looting:1,sharpness:3,sweeping_edge:2,unbreaking:2}}]"
+					icon: {
+						id: "minecraft:iron_sword"
+					}
+					id: "2858E824118D7852"
+					permission_level: 2
+					type: "command"
+				}
+				{
+					count: 5
+					id: "08B86D8453B9DA6A"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:strong_regeneration"
+							}
+						}
+						count: 1
+						id: "minecraft:potion"
+					}
+					type: "item"
+				}
+				{
+					command: "/team join bestiarius_warrior_roman"
+					icon: {
+						id: "supplementaries:bunting_black"
+					}
+					id: "535977EC3DA7E620"
+					permission_level: 2
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						id: "minecraft:shield"
+					}
+					id: "2FB74F907F016E93"
+					stat: "minecraft:damage_absorbed"
+					type: "stat"
+					value: 500
+				}
+				{
+					entity: "minecraft:wolf"
+					icon: {
+						id: "handcrafted:wolf_trophy"
+					}
+					id: "12AD8AD4C345727E"
+					type: "kill"
+					value: 40L
+				}
+				{
+					entity: "minecraft:polar_bear"
+					icon: {
+						id: "handcrafted:bear_trophy"
+					}
+					id: "56CFF60AE3EA382C"
+					type: "kill"
+					value: 50L
+				}
+				{
+					id: "0400B1F75457FFF5"
+					type: "checkmark"
+				}
+			]
+			x: -28.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1D2BA44652584BED"]
+			icon: {
+				id: "minecraft:bow"
+			}
+			id: "31A4F55E1440A855"
+			rewards: [
+				{
+					id: "19D853D59860A221"
+					type: "xp_levels"
+					xp_levels: 22
+				}
+				{
+					command: "/give @s iron_sword[custom_name='[\"\",{\"text\":\"Гладиус\",\"italic\":false}]',rarity=uncommon,enchantments={levels:{looting:1,sharpness:3,sweeping_edge:2,unbreaking:2}}]"
+					icon: {
+						id: "minecraft:iron_sword"
+					}
+					id: "64DDDF9B540FC040"
+					permission_level: 2
+					type: "command"
+				}
+				{
+					command: "/give @s bow[custom_name='[\"\",{\"text\":\"Лук венатора\",\"italic\":false}]',rarity=rare,enchantments={levels:{infinity:1,mending:1,power:5,punch:2,unbreaking:3}}]"
+					icon: {
+						id: "minecraft:bow"
+					}
+					id: "2D2CE9C8BB148BE9"
+					permission_level: 2
+					type: "command"
+				}
+				{
+					command: "/team join venator_warrior_roman"
+					icon: {
+						id: "supplementaries:bunting_black"
+					}
+					id: "68A33BD5F4C30A94"
+					permission_level: 2
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						id: "minecraft:shield"
+					}
+					id: "47F7874F6D327B16"
+					stat: "minecraft:damage_absorbed"
+					type: "stat"
+					value: 500
+				}
+				{
+					entity: "minecraft:spider"
+					icon: {
+						id: "plushies:spider_plushie"
+					}
+					id: "68E395FADBC25141"
+					type: "kill"
+					value: 100L
+				}
+				{
+					entity: "wildernature:bison"
+					icon: {
+						id: "wildernature:bison_trophy"
+					}
+					id: "5E52CEDD380D72F5"
+					type: "kill"
+					value: 30L
+				}
+				{
+					id: "39F861AA30682E4C"
+					type: "checkmark"
+				}
+			]
+			x: -28.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["314CC1CA5FA1CC9F"]
+			icon: {
+				id: "minecraft:iron_sword"
+			}
+			id: "003F748E0721B6F4"
+			rewards: [{
+				id: "48F196315E915B98"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			tasks: [
+				{
+					icon: {
+						id: "minecraft:iron_sword"
+					}
+					id: "5EFF28631F254829"
+					stat: "minecraft:mob_kills"
+					type: "stat"
+					value: 100
+				}
+				{
+					icon: {
+						id: "minecraft:skeleton_skull"
+					}
+					id: "7D7525B7B1E3EA26"
+					stat: "minecraft:deaths"
+					type: "stat"
+					value: 5
+				}
+				{
+					id: "2B398BD3C50905E8"
+					type: "checkmark"
+				}
+			]
+			x: -30.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["003F748E0721B6F4"]
+			icon: {
+				id: "minecraft:campfire"
+			}
+			id: "498171F1037284C1"
+			rewards: [
+				{
+					id: "03E87ECCFE11DA72"
+					type: "xp_levels"
+					xp_levels: 22
+				}
+				{
+					command: "/give @s diamond_sword[custom_name='[\"\",{\"text\":\"Меч хускарла\",\"italic\":false}]',rarity=rare,enchantments={levels:{knockback:2,mending:1,sharpness:5,sweeping_edge:3,unbreaking:3}}]"
+					icon: {
+						id: "minecraft:diamond_sword"
+					}
+					id: "531D65747726F2FA"
+					permission_level: 2
+					type: "command"
+				}
+				{
+					command: "/give @s shield[custom_name='[\"\",{\"text\":\"Щит хускарла\",\"italic\":false}]',rarity=rare,enchantments={levels:{mending:1,unbreaking:3}}]"
+					icon: {
+						id: "minecraft:shield"
+					}
+					id: "3187CCE13732A517"
+					permission_level: 2
+					type: "command"
+				}
+				{
+					command: "/team join huscarl_warrior_anglosaxon"
+					icon: {
+						id: "supplementaries:bunting_black"
+					}
+					id: "6757F78C0728D9FD"
+					permission_level: 2
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						id: "minecraft:diamond_sword"
+					}
+					id: "6E13863365F14CD9"
+					stat: "minecraft:mob_kills"
+					type: "stat"
+					value: 350
+				}
+				{
+					icon: {
+						id: "minecraft:campfire"
+					}
+					id: "1D4D59CB430A0DF7"
+					stat: "minecraft:interact_with_campfire"
+					type: "stat"
+					value: 100
+				}
+				{
+					icon: {
+						id: "minecraft:shield"
+					}
+					id: "5FEEB19601DE65DE"
+					stat: "minecraft:damage_absorbed"
+					type: "stat"
+					value: 500
+				}
+				{
+					id: "5464428D03DB24DE"
+					type: "checkmark"
+				}
+			]
+			x: -32.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["003F748E0721B6F4"]
+			icon: {
+				id: "immersive_melodies:lute"
+			}
+			id: "72B9783CC65BEAD4"
+			rewards: [
+				{
+					id: "5D615611C7C7F0FD"
+					type: "xp_levels"
+					xp_levels: 22
+				}
+				{
+					id: "2B4433B1A8F59C8D"
+					item: {
+						count: 1
+						id: "immersive_melodies:lute"
+					}
+					type: "item"
+				}
+				{
+					id: "6ACA529A983B34AE"
+					item: {
+						count: 1
+						id: "minecraft:writable_book"
+					}
+					type: "item"
+				}
+				{
+					command: "/team join scop_warrior_anglosaxon"
+					icon: {
+						id: "supplementaries:bunting_black"
+					}
+					id: "7F51F83B92CFFD38"
+					permission_level: 2
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						components: {
+							"relics:data": {
+								abilities: {
+									abilities: {
+										gills: {
+											extender: {
+												cooldown: 0
+												cooldownCap: 0
+												ticking: 0b
+											}
+											lock: {
+												breaks: 5
+											}
+											points: 0
+											research: {
+												links: { }
+												researched: 0b
+											}
+											stats: {
+												chance: {
+													initialValue: 0.06103d
+												}
+											}
+										}
+										slipping: {
+											extender: {
+												cooldown: 0
+												cooldownCap: 0
+												ticking: 0b
+											}
+											lock: {
+												breaks: 5
+											}
+											points: 0
+											research: {
+												links: { }
+												researched: 0b
+											}
+											stats: {
+												duration: {
+													initialValue: 24.38369d
+												}
+												speed: {
+													initialValue: 0.00918d
+												}
+											}
+										}
+										swimming: {
+											extender: {
+												cooldown: 0
+												cooldownCap: 0
+												ticking: 0b
+											}
+											lock: {
+												breaks: 5
+											}
+											points: 0
+											research: {
+												links: { }
+												researched: 0b
+											}
+											stats: {
+												duration: {
+													initialValue: 18.45086d
+												}
+												speed: {
+													initialValue: 0.00872d
+												}
+											}
+										}
+									}
+								}
+								leveling: {
+									experience: 0
+									level: 0
+									luck: 0
+									points: 0
+								}
+							}
+						}
+						id: "relics:amphibian_boot"
+					}
+					id: "57EAAC137D148FB4"
+					stat: "minecraft:walk_one_cm"
+					type: "stat"
+					value: 6000
+				}
+				{
+					icon: {
+						id: "minecraft:campfire"
+					}
+					id: "4AFD1C88CF33BB03"
+					stat: "minecraft:interact_with_campfire"
+					type: "stat"
+					value: 100
+				}
+				{
+					icon: {
+						id: "minecraft:note_block"
+					}
+					id: "743D6C6A9CE8CEE7"
+					stat: "minecraft:tune_noteblock"
+					type: "stat"
+					value: 50
+				}
+				{
+					id: "1FE365DAEBB94F0E"
+					type: "checkmark"
+				}
+			]
+			x: -34.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["003F748E0721B6F4"]
+			icon: {
+				id: "minecraft:shield"
+			}
+			id: "0A9AEB3CB9D636C9"
+			rewards: [
+				{
+					id: "5EC257FDCD6A71A6"
+					type: "xp_levels"
+					xp_levels: 22
+				}
+				{
+					command: "/give @s shield[custom_name='[\"\",{\"text\":\"Гоплон\",\"italic\":false}]',rarity=rare,enchantments={levels:{mending:1,unbreaking:3}}]"
+					icon: {
+						id: "minecraft:shield"
+					}
+					id: "43310F5268E49E8D"
+					permission_level: 2
+					type: "command"
+				}
+				{
+					command: "/team join hoplite_warrior_greek"
+					icon: {
+						id: "supplementaries:bunting_black"
+					}
+					id: "3AF98C0070EEB06E"
+					permission_level: 2
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						id: "minecraft:iron_sword"
+					}
+					id: "544DB76C787471B3"
+					stat: "minecraft:mob_kills"
+					type: "stat"
+					value: 175
+				}
+				{
+					icon: {
+						id: "plushies:villager_plushie"
+					}
+					id: "7F6A07FA96823184"
+					stat: "minecraft:talked_to_villager"
+					type: "stat"
+					value: 100
+				}
+				{
+					icon: {
+						id: "minecraft:shield"
+					}
+					id: "187B31915DA3C255"
+					stat: "minecraft:damage_absorbed"
+					type: "stat"
+					value: 1500
+				}
+				{
+					id: "4C69CE1CD96916D0"
+					type: "checkmark"
+				}
+			]
+			x: -32.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["003F748E0721B6F4"]
+			icon: {
+				id: "plushies:horse_plushie"
+			}
+			id: "7579AFA28F4DA603"
+			rewards: [
+				{
+					id: "7827F18D285365DF"
+					type: "xp_levels"
+					xp_levels: 22
+				}
+				{
+					id: "330EF5A40ED30FFC"
+					item: {
+						count: 1
+						id: "minecraft:diamond_horse_armor"
+					}
+					type: "item"
+				}
+				{
+					command: "/give @s bow[custom_name='[\"\",{\"text\":\"Лук монгола\",\"italic\":false}]',rarity=rare,enchantments={levels:{infinity:1,mending:1,power:5,punch:2,unbreaking:3}}]"
+					icon: {
+						id: "minecraft:bow"
+					}
+					id: "5666BDAE16A0E25B"
+					permission_level: 2
+					type: "command"
+				}
+				{
+					command: "/team join keshik_warrior_mongol"
+					icon: {
+						id: "supplementaries:bunting_black"
+					}
+					id: "520320DDA034D8AB"
+					permission_level: 2
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						id: "plushies:horse_plushie"
+					}
+					id: "7F61AA01BFEA9534"
+					stat: "minecraft:horse_one_cm"
+					type: "stat"
+					value: 12000
+				}
+				{
+					icon: {
+						id: "minecraft:netherite_sword"
+					}
+					id: "7633AD1CB7480B98"
+					stat: "minecraft:mob_kills"
+					type: "stat"
+					value: 500
+				}
+				{
+					id: "3324209ED0912E76"
+					type: "checkmark"
+				}
+			]
+			x: -32.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["003F748E0721B6F4"]
+			icon: {
+				id: "minecraft:shield"
+			}
+			id: "29A693FA891BA02E"
+			rewards: [
+				{
+					id: "695DE34FCF2F53D2"
+					type: "xp_levels"
+					xp_levels: 22
+				}
+				{
+					command: "/give @s golden_sword[custom_name='[\"\",{\"text\":\"Путь к свободе\",\"italic\":false}]',rarity=rare,enchantments={levels:{knockback:2,mending:1,sharpness:5,sweeping_edge:3,unbreaking:3}}]"
+					icon: {
+						id: "minecraft:golden_sword"
+					}
+					id: "07DB13415FFDAF2F"
+					permission_level: 2
+					type: "command"
+				}
+				{
+					command: "/team join ghulam_warrior_mughal"
+					icon: {
+						id: "supplementaries:bunting_black"
+					}
+					id: "16C25410DADD598B"
+					permission_level: 2
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						id: "minecraft:netherite_sword"
+					}
+					id: "1F55C2CE358C70B2"
+					stat: "minecraft:mob_kills"
+					type: "stat"
+					value: 500
+				}
+				{
+					icon: {
+						id: "minecraft:shield"
+					}
+					id: "103EE28B36B3EFD3"
+					stat: "minecraft:damage_blocked_by_shield"
+					type: "stat"
+					value: 500
+				}
+				{
+					icon: {
+						id: "pastel:divination_heart"
+					}
+					id: "341E5DB048973734"
+					stat: "minecraft:damage_taken"
+					type: "stat"
+					value: 500
+				}
+				{
+					id: "69E56B73AEBB250E"
+					type: "checkmark"
+				}
+			]
+			x: -32.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["003F748E0721B6F4"]
+			icon: {
+				id: "minecraft:netherite_axe"
+			}
+			id: "34056FB02F931A77"
+			rewards: [
+				{
+					id: "3D02416DE60D9FAD"
+					type: "xp_levels"
+					xp_levels: 22
+				}
+				{
+					command: "/give @s netherite_axe[custom_name='[\"\",{\"text\":\"Топор берсерка\",\"italic\":false}]',rarity=epic,enchantments={levels:{efficiency:5,fortune:3,looting:2,mending:1,sharpness:5,unbreaking:3}}]"
+					icon: {
+						id: "minecraft:netherite_axe"
+					}
+					id: "0CA5AE81A0D43D3F"
+					permission_level: 2
+					type: "command"
+				}
+				{
+					command: "/team join berserker_warrior_norse"
+					icon: {
+						id: "supplementaries:bunting_black"
+					}
+					id: "48C93B7F7949D23D"
+					permission_level: 2
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						id: "minecraft:netherite_sword"
+					}
+					id: "5D9B9A1F75C0E51C"
+					stat: "minecraft:mob_kills"
+					type: "stat"
+					value: 500
+				}
+				{
+					icon: {
+						id: "smallships:dark_oak_drakkar"
+					}
+					id: "49A6DEBE104832C1"
+					stat: "minecraft:boat_one_cm"
+					type: "stat"
+					value: 6000
+				}
+				{
+					icon: {
+						id: "minecraft:netherite_axe"
+					}
+					id: "04733EDA59A849DF"
+					stat: "minecraft:damage_dealt"
+					type: "stat"
+					value: 2500
+				}
+				{
+					id: "43FD24F0A56F85DE"
+					type: "checkmark"
+				}
+			]
+			x: -32.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["003F748E0721B6F4"]
+			icon: {
+				id: "immersive_melodies:lute"
+			}
+			id: "5E54ECAF501011A5"
+			rewards: [
+				{
+					id: "77E8604345267F71"
+					type: "xp_levels"
+					xp_levels: 22
+				}
+				{
+					id: "31F3AB8E99C0307C"
+					item: {
+						count: 1
+						id: "immersive_melodies:lute"
+					}
+					type: "item"
+				}
+				{
+					id: "49352AA1FF2E6FD9"
+					item: {
+						count: 1
+						id: "minecraft:writable_book"
+					}
+					type: "item"
+				}
+				{
+					command: "/team join skald_warrior_norse"
+					icon: {
+						id: "supplementaries:bunting_black"
+					}
+					id: "6CF054193EC72DD3"
+					permission_level: 2
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						id: "smallships:dark_oak_drakkar"
+					}
+					id: "444C8071FD18F434"
+					stat: "minecraft:boat_one_cm"
+					type: "stat"
+					value: 6000
+				}
+				{
+					icon: {
+						id: "minecraft:campfire"
+					}
+					id: "6E642263233716C0"
+					stat: "minecraft:interact_with_campfire"
+					type: "stat"
+					value: 100
+				}
+				{
+					icon: {
+						id: "minecraft:note_block"
+					}
+					id: "384DDC60FA339EE1"
+					stat: "minecraft:tune_noteblock"
+					type: "stat"
+					value: 50
+				}
+				{
+					icon: {
+						id: "minecraft:cod"
+					}
+					id: "6D18867CE47F75E3"
+					stat: "minecraft:fish_caught"
+					type: "stat"
+					value: 60
+				}
+				{
+					id: "5D76B552F20D985D"
+					type: "checkmark"
+				}
+			]
+			x: -34.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["003F748E0721B6F4"]
+			icon: {
+				id: "immersive_melodies:lute"
+			}
+			id: "5AB38D90E8842632"
+			rewards: [
+				{
+					id: "4FD6ED155727DD92"
+					type: "xp_levels"
+					xp_levels: 22
+				}
+				{
+					id: "28D0FC3135F7B196"
+					item: {
+						count: 1
+						id: "immersive_melodies:lute"
+					}
+					type: "item"
+				}
+				{
+					id: "6E9BCE7738553326"
+					item: {
+						count: 1
+						id: "minecraft:writable_book"
+					}
+					type: "item"
+				}
+				{
+					command: "/team join guslar_warrior_serbian"
+					icon: {
+						id: "supplementaries:bunting_black"
+					}
+					id: "3482FE19EE474B42"
+					permission_level: 2
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						components: {
+							"relics:data": {
+								abilities: {
+									abilities: {
+										gills: {
+											extender: {
+												cooldown: 0
+												cooldownCap: 0
+												ticking: 0b
+											}
+											lock: {
+												breaks: 5
+											}
+											points: 0
+											research: {
+												links: { }
+												researched: 0b
+											}
+											stats: {
+												chance: {
+													initialValue: 0.06103d
+												}
+											}
+										}
+										slipping: {
+											extender: {
+												cooldown: 0
+												cooldownCap: 0
+												ticking: 0b
+											}
+											lock: {
+												breaks: 5
+											}
+											points: 0
+											research: {
+												links: { }
+												researched: 0b
+											}
+											stats: {
+												duration: {
+													initialValue: 24.38369d
+												}
+												speed: {
+													initialValue: 0.00918d
+												}
+											}
+										}
+										swimming: {
+											extender: {
+												cooldown: 0
+												cooldownCap: 0
+												ticking: 0b
+											}
+											lock: {
+												breaks: 5
+											}
+											points: 0
+											research: {
+												links: { }
+												researched: 0b
+											}
+											stats: {
+												duration: {
+													initialValue: 18.45086d
+												}
+												speed: {
+													initialValue: 0.00872d
+												}
+											}
+										}
+									}
+								}
+								leveling: {
+									experience: 0
+									level: 0
+									luck: 0
+									points: 0
+								}
+							}
+						}
+						id: "relics:amphibian_boot"
+					}
+					id: "72786B9104EBE078"
+					stat: "minecraft:walk_one_cm"
+					type: "stat"
+					value: 6000
+				}
+				{
+					icon: {
+						id: "minecraft:campfire"
+					}
+					id: "1332CAD3A67E5AEA"
+					stat: "minecraft:interact_with_campfire"
+					type: "stat"
+					value: 100
+				}
+				{
+					icon: {
+						id: "minecraft:note_block"
+					}
+					id: "381CE2100C25D085"
+					stat: "minecraft:tune_noteblock"
+					type: "stat"
+					value: 50
+				}
+				{
+					icon: {
+						id: "minecraft:writable_book"
+					}
+					id: "26BE2A22F0A80028"
+					stat: "minecraft:traded_with_villager"
+					type: "stat"
+					value: 100
+				}
+				{
+					id: "2754939A7B63D528"
+					type: "checkmark"
+				}
+			]
+			x: -32.5d
+			y: -2.0d
 		}
 	]
 }

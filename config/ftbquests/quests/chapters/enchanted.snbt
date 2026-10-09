@@ -297,14 +297,9 @@
 				type: "item"
 			}]
 			tasks: [{
-				icon: {
-					id: "enchanted:witch_cauldron"
-				}
-				id: "309DB0D0ED158034"
-				observe_type: 0
-				timer: 0L
-				to_observe: "enchanted:witch_cauldron"
-				type: "observation"
+				id: "311C792F2B1B291A"
+				item: { count: 1, id: "enchanted:kettle" }
+				type: "item"
 			}]
 			x: -4.5d
 			y: -1.5d

@@ -111,7 +111,7 @@
 		{
 			dependency: "1F6BC8C2A5B8F9B2"
 			height: 1.0d
-			image: "minecraft:block/blue_orchid"
+			image: "biomeswevegone:block/lazarus_bellflower"
 			rotation: 0.0d
 			width: 1.0d
 			x: 5.28163265306123d
@@ -1763,6 +1763,7 @@
 		{
 			dependencies: ["28B245505F91D21C"]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "312E75631E693DDD"
 			optional: true
 			tasks: [{
@@ -2232,6 +2233,12 @@
 			hide_dependency_lines: true
 			id: "5BB45847D0AEA0A1"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7171C26380AA3A9B"
+				table_id: 8748787365207437197L
+				type: "random"
+			}]
 			tasks: [{
 				icon: {
 					id: "minecraft:totem_of_undying"
@@ -2247,6 +2254,12 @@
 			dependencies: ["5BB45847D0AEA0A1"]
 			id: "2AB8DBA3E5EC9517"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6024342EAA385C6D"
+				table_id: 8748787365207437197L
+				type: "random"
+			}]
 			tasks: [{
 				id: "3A50B96364AE5103"
 				item: { count: 1, id: "minecraft:totem_of_undying" }
@@ -2259,6 +2272,12 @@
 			dependencies: ["2AB8DBA3E5EC9517"]
 			id: "3DF396D8A4583BEF"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "322877E05C7E81D5"
+				table_id: 3030805612006646610L
+				type: "random"
+			}]
 			shape: "octagon"
 			size: 0.8d
 			tasks: [{
@@ -2273,6 +2292,12 @@
 			dependencies: ["2AB8DBA3E5EC9517"]
 			id: "2771403AE3C4B15D"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6441B1F3A62AD8EE"
+				table_id: 3030805612006646610L
+				type: "random"
+			}]
 			shape: "octagon"
 			size: 0.8d
 			tasks: [{
@@ -2287,6 +2312,12 @@
 			dependencies: ["2AB8DBA3E5EC9517"]
 			id: "3EF8802C44EF63B4"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "063DE5CC193CB206"
+				table_id: 3030805612006646610L
+				type: "random"
+			}]
 			shape: "octagon"
 			size: 0.8d
 			tasks: [{
@@ -2301,6 +2332,12 @@
 			dependencies: ["2AB8DBA3E5EC9517"]
 			id: "28ED0D654EB5BFA7"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42C4C632C67BC435"
+				table_id: 3030805612006646610L
+				type: "random"
+			}]
 			shape: "octagon"
 			size: 0.8d
 			tasks: [{
@@ -2315,6 +2352,12 @@
 			dependencies: ["2AB8DBA3E5EC9517"]
 			id: "2BF66F014551E71C"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "36EECCA43A589E69"
+				table_id: 3030805612006646610L
+				type: "random"
+			}]
 			shape: "octagon"
 			size: 0.8d
 			tasks: [{
@@ -2329,6 +2372,12 @@
 			dependencies: ["2AB8DBA3E5EC9517"]
 			id: "5A597103AB95EBF4"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E784815B9311711"
+				table_id: 3030805612006646610L
+				type: "random"
+			}]
 			shape: "octagon"
 			size: 0.8d
 			tasks: [{
@@ -2343,6 +2392,12 @@
 			dependencies: ["2AB8DBA3E5EC9517"]
 			id: "16936A2DC84CE45D"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "284F6DC18C5FAB2F"
+				table_id: 3030805612006646610L
+				type: "random"
+			}]
 			shape: "octagon"
 			size: 0.8d
 			tasks: [{
@@ -2405,8 +2460,8 @@
 			]
 			tasks: [{
 				id: "493C14D263BBA693"
-				title: "Spuds Shops"
-				type: "checkmark"
+				item: { components: { "ftbfiltersystem:filter": "or(item(spudaciousshops:shop_acacia_red)item(spudaciousshops:shop_bamboo_red)item(spudaciousshops:shop_birch_red)item(spudaciousshops:shop_cherry_red)item(spudaciousshops:shop_crimson_red)item(spudaciousshops:shop_dark_oak_red)item(spudaciousshops:shop_mangrove_red)item(spudaciousshops:shop_oak_red)item(spudaciousshops:shop_spruce_red)item(spudaciousshops:shop_warped_red)item(spudaciousshops:shop_jungle_red)item(spudaciousshops:shop_window_calcite)item(spudaciousshops:shop_window_andesite)item(spudaciousshops:hook_shop)item(spudaciousshops:rug_shop)item(spudaciousshops:rug_shop_white)item(spudaciousshops:rug_shop_orange)item(spudaciousshops:rug_shop_magenta)item(spudaciousshops:rug_shop_light_blue)item(spudaciousshops:rug_shop_black)item(spudaciousshops:rug_shop_green)item(spudaciousshops:rug_shop_yellow)item(spudaciousshops:rug_shop_lime)item(spudaciousshops:rug_shop_pink)item(spudaciousshops:rug_shop_gray)item(spudaciousshops:rug_shop_light_gray)item(spudaciousshops:rug_shop_cyan)item(spudaciousshops:rug_shop_purple)item(spudaciousshops:rug_shop_blue)item(spudaciousshops:rug_shop_brown)item(spudaciousshops:crate_shop)item(spudaciousshops:shelf_shop_acacia)item(spudaciousshops:shelf_shop_bamboo)item(spudaciousshops:shelf_shop_birch)item(spudaciousshops:shelf_shop_cherry)item(spudaciousshops:shelf_shop_crimson)item(spudaciousshops:shelf_shop_dark_oak)item(spudaciousshops:shelf_shop_mangrove)item(spudaciousshops:shelf_shop_oak)item(spudaciousshops:shelf_shop_spruce)item(spudaciousshops:shelf_shop_warped)item(spudaciousshops:shelf_shop_jungle))", "minecraft:custom_name": "\"Spuds Shops\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
 			}]
 			x: 7.0d
 			y: -7.5d
@@ -2605,6 +2660,7 @@
 		{
 			dependencies: ["22415034137B2D62"]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "443C561B83204087"
 			rewards: [{
 				count: 4
@@ -2636,14 +2692,9 @@
 			shape: "square"
 			size: 1.3d
 			tasks: [{
-				icon: {
-					id: "mineoctober:iridium_ore"
-				}
-				id: "1F4DFAA8CF3CDCEE"
-				observe_type: 0
-				timer: 0L
-				to_observe: "mineoctober:iridium_ore"
-				type: "observation"
+				id: "15DD22C13193AECB"
+				item: { count: 1, id: "mineoctober:raw_iridium" }
+				type: "item"
 			}]
 			x: 9.0d
 			y: 6.0d
@@ -2778,7 +2829,7 @@
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
-				advancement: "minecraft:end/kill_dragon"
+				advancement: "minecraft:story/enter_the_end"
 				criterion: ""
 				id: "117617A0C55B2DAE"
 				type: "advancement"
@@ -3067,6 +3118,7 @@
 		{
 			dependencies: ["28B245505F91D21C"]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "4D081A68CDE5777B"
 			optional: true
 			rewards: [{
@@ -3104,23 +3156,6 @@
 			}]
 			x: -4.5d
 			y: -15.0d
-		}
-		{
-			dependencies: ["23D94D7672A97913"]
-			id: "7A88CA7AAEBB9E99"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7FBCEDAF38615ECA"
-				table_id: 3055044194236312781L
-				type: "random"
-			}]
-			tasks: [{
-				id: "6EF31815DA68F4EA"
-				item: { count: 1, id: "justhammers:stone_hammer" }
-				type: "item"
-			}]
-			x: 8.0d
-			y: -5.5d
 		}
 		{
 			dependencies: ["7FA5CDC0F616D2C5"]
@@ -3272,6 +3307,25 @@
 			}]
 			x: -0.8d
 			y: 9.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5BAE6CD47D4ABF2D"]
+			id: "6AA1FB3BC11ABD29"
+			rewards: [{
+				command: "/give @s minecraft:debug_stick"
+				id: "41BD1164CBE1E7FA"
+				permission_level: 2
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "13CDB21BDBD1BCF5"
+				item: { count: 1, id: "minecraft:stick" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -15.0d
 		}
 	]
 }
