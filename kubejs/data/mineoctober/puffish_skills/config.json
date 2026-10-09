@@ -1,11 +1,5 @@
 {
 	"version": 3,
 
-	"categories": [
-		"combat",
-		"explorer",
-		"miner",
-		"lumberjack",
-		"farmer"
-	]
+	"categories": []
 }
