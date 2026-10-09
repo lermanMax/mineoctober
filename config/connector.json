@@ -5,5 +5,5 @@
     "cloth_config": "cloth-config2",
     "playeranimator": "player-animator"
   },
-  "enableMixinSafeguard": true
+  "enableMixinSafeguard": false
 }
