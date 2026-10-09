@@ -111,7 +111,7 @@
 		{
 			dependency: "1F6BC8C2A5B8F9B2"
 			height: 1.0d
-			image: "biomeswevegone:block/lazarus_bellflower"
+			image: "minecraft:block/blue_orchid"
 			rotation: 0.0d
 			width: 1.0d
 			x: 5.28163265306123d
@@ -2460,8 +2460,8 @@
 			]
 			tasks: [{
 				id: "493C14D263BBA693"
-				item: { components: { "ftbfiltersystem:filter": "or(item(spudaciousshops:shop_acacia_red)item(spudaciousshops:shop_bamboo_red)item(spudaciousshops:shop_birch_red)item(spudaciousshops:shop_cherry_red)item(spudaciousshops:shop_crimson_red)item(spudaciousshops:shop_dark_oak_red)item(spudaciousshops:shop_mangrove_red)item(spudaciousshops:shop_oak_red)item(spudaciousshops:shop_spruce_red)item(spudaciousshops:shop_warped_red)item(spudaciousshops:shop_jungle_red)item(spudaciousshops:shop_window_calcite)item(spudaciousshops:shop_window_andesite)item(spudaciousshops:hook_shop)item(spudaciousshops:rug_shop)item(spudaciousshops:rug_shop_white)item(spudaciousshops:rug_shop_orange)item(spudaciousshops:rug_shop_magenta)item(spudaciousshops:rug_shop_light_blue)item(spudaciousshops:rug_shop_black)item(spudaciousshops:rug_shop_green)item(spudaciousshops:rug_shop_yellow)item(spudaciousshops:rug_shop_lime)item(spudaciousshops:rug_shop_pink)item(spudaciousshops:rug_shop_gray)item(spudaciousshops:rug_shop_light_gray)item(spudaciousshops:rug_shop_cyan)item(spudaciousshops:rug_shop_purple)item(spudaciousshops:rug_shop_blue)item(spudaciousshops:rug_shop_brown)item(spudaciousshops:crate_shop)item(spudaciousshops:shelf_shop_acacia)item(spudaciousshops:shelf_shop_bamboo)item(spudaciousshops:shelf_shop_birch)item(spudaciousshops:shelf_shop_cherry)item(spudaciousshops:shelf_shop_crimson)item(spudaciousshops:shelf_shop_dark_oak)item(spudaciousshops:shelf_shop_mangrove)item(spudaciousshops:shelf_shop_oak)item(spudaciousshops:shelf_shop_spruce)item(spudaciousshops:shelf_shop_warped)item(spudaciousshops:shelf_shop_jungle))", "minecraft:custom_name": "\"Spuds Shops\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
+				title: "Spuds Shops"
+				type: "checkmark"
 			}]
 			x: 7.0d
 			y: -7.5d

@@ -8,7 +8,7 @@
 	group: ""
 	hide_quest_until_deps_complete: true
 	icon: {
-		id: "biomeswevegone:white_sakura_sapling"
+		id: "minecraft:cherry_sapling"
 	}
 	id: "139369A26CED6377"
 	images: [
@@ -66,7 +66,7 @@
 			dependencies: ["7E735829C70E829F"]
 			disable_toast: true
 			icon: {
-				id: "biomeswevegone:aspen_log"
+				id: "minecraft:birch_log"
 			}
 			id: "69DCCD0BB312EF6D"
 			optional: true
