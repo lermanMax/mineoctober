@@ -118,15 +118,6 @@
 			y: 1.2095238095238017d
 		}
 		{
-			dependency: "261651FB7B600587"
-			height: 1.0d
-			image: "enchanted:item/wolfsbane_flower"
-			rotation: 0.0d
-			width: 1.0d
-			x: 9.931632653061229d
-			y: -1.1440476190476332d
-		}
-		{
 			dependency: "65A1336AF50B1E2D"
 			height: 1.0d
 			image: "minecraft:item/flower_banner_pattern"

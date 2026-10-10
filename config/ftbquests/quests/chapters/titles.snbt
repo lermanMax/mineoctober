@@ -7634,7 +7634,7 @@
 		{
 			dependencies: ["314CC1CA5FA1CC9F"]
 			icon: {
-				id: "enchanted:oil_of_vitriol"
+				id: "minecraft:experience_bottle"
 			}
 			id: "0BEC5FF255169782"
 			rewards: [
@@ -7899,7 +7899,7 @@
 		{
 			dependencies: ["314CC1CA5FA1CC9F"]
 			icon: {
-				id: "enchanted:oil_of_vitriol"
+				id: "minecraft:experience_bottle"
 			}
 			id: "453BE10392D73135"
 			rewards: [
