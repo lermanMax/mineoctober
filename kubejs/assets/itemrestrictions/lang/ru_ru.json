@@ -1,0 +1,16 @@
+{
+  "itemrestrictions.inventory.cant_craft": "Вы пока не можете создать этот предмет.",
+  "itemrestrictions.inventory.cant_smelt": "Вы пока не можете переплавить этот предмет.",
+  "itemrestrictions.inventory.cant_brew": "Вы пока не можете сварить этот предмет.",
+  "itemrestrictions.inventory.cant_enchant": "Вы пока не можете зачаровать этот предмет.",
+  "itemrestrictions.inventory.cant_repair": "Вы пока не можете починить этот предмет.",
+  "itemrestrictions.inventory.cant_use_item": "Вы пока не можете использовать этот предмет.",
+  "itemrestrictions.inventory.cant_break_block": "Вы пока не можете сломать этот блок.",
+  "itemrestrictions.inventory.cant_item_break_block": "Вы пока не можете сломать этот блок этим предметом.",
+  "itemrestrictions.inventory.cant_place_block": "Вы пока не можете поставить этот блок.",
+  "itemrestrictions.inventory.cant_hurt_entity": "Вы пока не можете наносить урон этим предметом.",
+  "yamlconfig.itemrestrictions": "Ограничения предметов",
+  "yamlconfig.itemrestrictions.item-restrictions-common": "Общие",
+  "yamlconfig.itemrestrictions.item-restrictions-common.debug": "Отладка",
+  "yamlconfig.itemrestrictions.item-restrictions-common.debug.is_debug": "Отладка включена"
+}
