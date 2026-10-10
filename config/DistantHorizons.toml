@@ -764,10 +764,10 @@ _version = 3
 	#
 	# How many LOD generation requests per second should a client send? 
 	# Also limits the number of client requests allowed to stay in the server's queue.
-	generationRequestRateLimit = 20
+	generationRequestRateLimit = 5
 	#
 	# Defines the distance allowed to generate around the player.
-	maxGenerationRequestDistance = 4096
+	maxGenerationRequestDistance = 512
 	#
 	# Defines the X-coordinate of the central point for generation boundaries, in blocks.
 	generationBoundsX = 0
@@ -780,7 +780,7 @@ _version = 3
 	generationBoundsRadius = 0
 	#
 	# If true, clients will receive real-time LOD updates for chunks outside the client's render distance.
-	enableRealTimeUpdates = true
+	enableRealTimeUpdates = false
 	#
 	# Defines the distance the player will receive updates around.
 	realTimeUpdateDistanceRadiusInChunks = 256
@@ -790,7 +790,7 @@ _version = 3
 	#
 	# How many LOD sync requests per second should a client send? 
 	# Also limits the amount of player's requests allowed to stay in the server's queue.
-	syncOnLoadRateLimit = 50
+	syncOnLoadRateLimit = 20
 	#
 	# Defines the distance allowed to be synchronized around the player. 
 	# Should be the same or larger than maxGenerationRequestDistance in most cases.
