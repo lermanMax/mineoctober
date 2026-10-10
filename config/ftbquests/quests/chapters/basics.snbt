@@ -3326,5 +3326,23 @@
 			x: -3.5d
 			y: -15.0d
 		}
+		{
+			dependencies: ["1F6BC8C2A5B8F9B2"]
+			hide_until_deps_complete: true
+			icon: { id: "minecraft:diamond_pickaxe" }
+			id: "591651DE5D5961CA"
+			rewards: [{
+				id: "6B0E2D8A4C1F7395"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "3A7C1B52E09D44F1"
+				type: "checkmark"
+			}]
+			x: -0.25d
+			y: 5.25d
+		}
 	]
 }

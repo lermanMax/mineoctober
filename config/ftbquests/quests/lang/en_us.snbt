@@ -4796,6 +4796,22 @@
 		"In addition, there is a new smithing template - &n&eGlow&r. To apply this trim, you need to use a &n&eGlow Ink Sac&r."
 	]
 	quest.65F3ED29B9F72371.title: "Smithing Template"
+	quest.591651DE5D5961CA.quest_desc: [
+		"Jobs give you experience and perks for the things you already do: mining, woodcutting, farming, fishing, hunting, potions, enchanting, smithing and building."
+		""
+		"&6[J]&r – Open the Jobs menu (Jobs+)"
+		""
+		"You can pick two jobs for &6free&r. Extra jobs are bought with coins."
+		""
+		"Job experience comes from the job's own actions: a miner earns it from mining, a lumberjack from chopping, and so on. Max level is &6100&r."
+		""
+		"Each new level gives you &61 coin&r. Spend coins on &bpower-ups&r in the menu: faster digging, double drops, less tool wear, faster leveling."
+		""
+		"Power-ups unlock at certain job levels (5, 10, 15, 25, 30 and up) and cost coins, so choose wisely."
+		""
+		"&cDying costs you 25% of your job's accumulated experience.&r"
+	]
+	quest.591651DE5D5961CA.title: "&6Jobs"
 	quest.660C3D5CB407247F.quest_desc: [
 		"Default key bindings you should have:"
 		""
