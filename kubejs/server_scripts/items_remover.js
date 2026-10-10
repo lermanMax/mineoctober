@@ -1,6 +1,6 @@
 // priority: 10
 
-var bannedItems = [['artifacts:everlasting_beef', "Disabled Item"], ["artifacts:eternal_steak", "Disabled Item"], ["relics:infinity_ham", "Disabled Item"]];
+var bannedItems = [['artifacts:everlasting_beef', "Disabled Item"], ["artifacts:helium_flamingo", "Disabled Item"], ["artifacts:eternal_steak", "Disabled Item"], ["relics:infinity_ham", "Disabled Item"]];
 bannedItems.forEach((pair) => {
   PlayerEvents.inventoryChanged(pair[0], event => {
     event.player.tell([

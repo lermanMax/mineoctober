@@ -508,23 +508,6 @@
 		}
 		{
 			dependencies: ["1F6BC8C2A5B8F9B2"]
-			id: "4CCAD1EBB977DF2E"
-			rewards: [{
-				id: "00542FA9ACFB6002"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
-			shape: "rsquare"
-			tasks: [{
-				id: "0AB4D6FE3AB4D9F5"
-				item: { components: { "relics:data": { abilities: { abilities: { flying: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { speed: { initialValue: 0.2566d }, time: { initialValue: 4.24921d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:helium_flamingo" }
-				type: "item"
-			}]
-			x: -4.5d
-			y: 6.5d
-		}
-		{
-			dependencies: ["1F6BC8C2A5B8F9B2"]
 			id: "0424F3DCA7620F49"
 			rewards: [{
 				id: "7809AEB9EA16E2D1"

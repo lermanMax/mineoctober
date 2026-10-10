@@ -17,6 +17,7 @@
   //    Example: minecraft:diamond
   "blacklisted_items": [
     "artifacts:everlasting_beef",
+    "artifacts:helium_flamingo",
     "artifacts:eternal_steak",
     "relics:infinity_ham",
     'create:cardboard_sword',
