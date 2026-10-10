@@ -33,7 +33,7 @@ layout_action_executable_blocks {
 
 element {
   interactable = true
-  source = %#ada7a0%Mine%#%%#fc8803%October%#% 2025%n%*Made with %#e66440%love%#%*
+  source = %#ada7a0%Mine%#%%#fc8803%October%#% 2026%n%*Made with %#e66440%love%#%*
   source_mode = direct
   shadow = true
   scale = 1.0

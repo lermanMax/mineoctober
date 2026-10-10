@@ -36,11 +36,11 @@
   },
   "serverSettings": {
     "fallbackServerIcon": "mineoctober_icon_2048",
-    "fallbackServerName": "MineOctober 2025",
-    "fallbackServerMotd": "MineOctober 2025",
+    "fallbackServerName": "MineOctober 2026",
+    "fallbackServerMotd": "MineOctober 2026",
     "serverData": {
       "default": {
-        "textOverride": "Playing on MineOctober 2025"
+        "textOverride": "Playing on MineOctober 2026"
       }
     },
     "pingRateInterval": 5,

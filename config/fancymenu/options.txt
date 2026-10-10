@@ -26,7 +26,7 @@ B:game_intro_fade_out = 'true';
 B:show_custom_window_icon = 'true';
 S:custom_window_icon_macos = '/config/fancymenu/assets/mineoctober_icon_48.icns';
 S:custom_window_icon_32 = '/config/fancymenu/assets/mineoctober_icon_32.png';
-S:custom_window_title = 'MineOctober 2025';
+S:custom_window_title = 'MineOctober 2026';
 S:custom_window_icon_16 = '/config/fancymenu/assets/mineoctober_icon_16.png';
 
 
