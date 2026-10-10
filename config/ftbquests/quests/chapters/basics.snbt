@@ -3258,8 +3258,7 @@
 			]
 			tasks: [{
 				id: "13C9A405D722561B"
-				item: { components: { "ftbfiltersystem:filter": "or(mod(framedblocks))", "minecraft:custom_name": "\"Framed Blocks\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
+				type: "checkmark"
 			}]
 			x: -3.5d
 			y: -14.0d
