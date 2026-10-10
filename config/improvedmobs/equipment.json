@@ -28,11 +28,6 @@
       "quality": 36.89661
     },
     {
-      "value": "enchanted:arthana",
-      "weight": 30992,
-      "quality": 23.074833
-    },
-    {
       "value": "irons_spellbooks:amethyst_rapier",
       "weight": 5226,
       "quality": 46.407475
@@ -675,11 +670,6 @@
       "value": "create:netherite_diving_helmet",
       "weight": 9672,
       "quality": 661.5552
-    },
-    {
-      "value": "enchanted:earmuffs",
-      "weight": 29035,
-      "quality": 614.003
     },
     {
       "value": "friendsandfoes:wildfire_crown",
