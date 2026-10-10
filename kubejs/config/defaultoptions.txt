@@ -180,3 +180,4 @@ key_key.jade.narrate:key.keyboard.keypad.5
 key_key.jade.show_details:key.keyboard.left.shift
 key_key.craftpresence.config_keycode.name:key.keyboard.grave.accent
 key_key.entityculling.toggle:key.keyboard.unknown
+guiScale:3
