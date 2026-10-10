@@ -9092,43 +9092,7 @@
 					value: 45
 				}
 				{
-					icon: {
-						components: {
-							"relics:data": {
-								abilities: {
-									abilities: {
-										bridge: {
-											extender: {
-												cooldown: 0
-												cooldownCap: 0
-												ticking: 1b
-											}
-											lock: {
-												breaks: 5
-											}
-											points: 0
-											research: {
-												links: { }
-												researched: 0b
-											}
-											stats: {
-												duration: {
-													initialValue: 0.30094d
-												}
-											}
-										}
-									}
-								}
-								leveling: {
-									experience: 0
-									level: 0
-									luck: 0
-									points: 0
-								}
-							}
-						}
-						id: "relics:phantom_boot"
-					}
+					icon: { id: "minecraft:leather_boots" }
 					id: "3866BBA9A8FEFC15"
 					stat: "minecraft:crouch_one_cm"
 					type: "stat"
@@ -9202,43 +9166,7 @@
 					value: 45
 				}
 				{
-					icon: {
-						components: {
-							"relics:data": {
-								abilities: {
-									abilities: {
-										bridge: {
-											extender: {
-												cooldown: 0
-												cooldownCap: 0
-												ticking: 1b
-											}
-											lock: {
-												breaks: 5
-											}
-											points: 0
-											research: {
-												links: { }
-												researched: 0b
-											}
-											stats: {
-												duration: {
-													initialValue: 0.30094d
-												}
-											}
-										}
-									}
-								}
-								leveling: {
-									experience: 0
-									level: 0
-									luck: 0
-									points: 0
-								}
-							}
-						}
-						id: "relics:phantom_boot"
-					}
+					icon: { id: "minecraft:leather_boots" }
 					id: "4FFF7B2C20FDBC9B"
 					stat: "minecraft:crouch_one_cm"
 					type: "stat"

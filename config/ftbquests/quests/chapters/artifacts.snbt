@@ -1052,23 +1052,6 @@
 		}
 		{
 			dependencies: ["1F6BC8C2A5B8F9B2"]
-			id: "0F1314B948B220F8"
-			rewards: [{
-				id: "5756D505B548527C"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
-			shape: "rsquare"
-			tasks: [{
-				id: "2E8E967E541B2E4C"
-				item: { components: { "relics:data": { abilities: { abilities: { bridge: { extender: { cooldown: 0, cooldownCap: 0, ticking: 1b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { duration: { initialValue: 0.98108d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "relics:phantom_boot" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 9.5d
-		}
-		{
-			dependencies: ["1F6BC8C2A5B8F9B2"]
 			id: "636EC2E38408153E"
 			rewards: [{
 				id: "70593B5ED84E21C1"
