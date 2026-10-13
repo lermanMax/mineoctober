@@ -6105,4 +6105,120 @@
 	task.738DB52AC636ED24.title: "Any Spellblade"
 	task.7869409871A6217C.title: "23x Polished Blocks"
 	task.797924159D5342B4.title: "&l&cAre you sure you read everything? This part is really important to the pack."
+	chapter.6A8EFC5A2B306728.title: "&aVillagers (Villager Overhaul)"
+	quest.4B5A3C2C4D8B944C.quest_desc: [
+		"The &6Villager Overhaul&r mod makes villagers useful: you can &arecruit&r them and put them to work trading, guarding and farming."
+		""
+		"What recruited villagers can do:"
+		"&6•&r &eMerchants&r: reroll and lock trades, search for a wanted item, trade automatically"
+		"&6•&r &eGuards&r: wear armor, weapons and a shield, protect you, patrol, follow you"
+		"&6•&r &eFarmers&r: plant and harvest in a set area, use chests"
+		"&6•&r &eChat commands&r: a villager repeats the actions you recorded on a phrase"
+		""
+		"The next quests explain how to recruit and what to set up."
+	]
+	quest.4B5A3C2C4D8B944C.title: "&aVillagers: recruiting and growth"
+	quest.59218F6D165C8383.quest_desc: [
+		"Walk up to a villager and &6right-click&r: the recruit window opens."
+		""
+		"You pay in &aemeralds&r; the price depends on the villager's stats (each has random merchant, guard and farming stats)."
+		""
+		"After paying, the villager is &6yours&r. Right-click it again: the mod buttons appear."
+		""
+		"&7Tip: check the stats first. A good merchant, guard or farmer costs more.&r"
+		""
+		"Only the owner can control a recruited villager (checked by the server)."
+	]
+	quest.59218F6D165C8383.title: "&aRecruit a villager"
+	quest.15F54482133DC889.quest_desc: [
+		"The &6Trading Hall&r block ties a merchant villager to a trading spot: emeralds pile up in the block and you can collect them."
+		""
+		"Recipe: &7white carpets on top, a row of planks under them and planks on the sides at the bottom&r (WWW / PPP / P P)."
+		""
+		"&7The block stores emeralds and opens like a 3-row chest. Assigning the villager is done from its menu.&r"
+	]
+	quest.15F54482133DC889.title: "&aTrading Hall"
+	quest.4A24D9F7710CA171.quest_desc: [
+		"A recruited villager's trade window has a reroll button:"
+		""
+		"&6Left-click&r – reroll trades (costs emeralds; only unlocked trades change)"
+		"&6Right-click a trade&r – lock/unlock it so it never changes"
+		"&6Right-click the reroll button&r – open the auto-search catalog"
+		""
+		"The price depends on the number of paid offers and the villager's Generosity stat (higher = cheaper). The first 2 offers are free by default."
+	]
+	quest.4A24D9F7710CA171.title: "&aReroll and lock trades"
+	quest.14BC7C1554C2EDD6.quest_desc: [
+		"&6Auto-search&r: right-click the reroll button to open the catalog. Pick the wanted items and the villager rerolls on its own until it finds them. While searching it is &ebusy&r. Paid in emeralds."
+		""
+		"&6Auto-trade&r: &6CTRL+click&r a trade where the villager gives emeralds to repeat it automatically. A confirmation window appears."
+		""
+		"Auto-trade stops if you close the window, the offer disappears or your inventory is full."
+	]
+	quest.14BC7C1554C2EDD6.title: "&aAuto-search and auto-trade"
+	quest.27644EF428571EC7.quest_desc: [
+		"A recruited villager can be armed: its inventory has armor slots and two &6combat loadout&r slots (main hand and offhand)."
+		""
+		"&6Combat modes&r: &eOff&r, &eDefend&r (reacts to damage to you and your attacks), &eAggressive&r (attacks mobs on its own using filters), &eFlee&r."
+		""
+		"&6Bow/crossbow&r: put the weapon in the main hand and matching arrows in the &eoffhand&r. Without ammo there the villager will not shoot."
+		"&6Shield&r: put a shield in the offhand and enable blocking in combat settings."
+		""
+		"The villager eats food from its inventory to heal. The key &6K&r opens global combat settings."
+	]
+	quest.27644EF428571EC7.title: "&aGuard: gear and modes"
+	quest.47A35CC3499A84B4.quest_desc: [
+		"Guards can be sent on a &6patrol&r along a route you set in the menu, or told to &6follow you&r."
+		""
+		"&6Chat commands&r: bind the &eOpen Player Chat Commands&r key in &eControls → Villager Overhaul&r. There you can bind phrases to modes (Help, Follow, Patrol, Defend, etc.). A villager hears you within its range."
+		""
+		"&6Help&r: nearby recruited villagers join the fight against whoever you hit or who hits you, then go back to their work."
+	]
+	quest.47A35CC3499A84B4.title: "&aPatrol and chat commands"
+	quest.752A54B77F0CE7A8.quest_desc: [
+		"A villager with the &eFarmer&r profession and a workstation can work as a farmer. Turn on &6manual farming&r (button &6M&r in the farmer menu)."
+		""
+		"&6Area&r: around the workstation (any block can be set) with a radius limited by the Ranger stat."
+		"&6Rules&r: what to plant and what to harvest (modded items work). Nether wart is planted on soul sand."
+		"&6Chests&r: register a deposit chest and a withdraw chest and set in the rules how many stacks the villager keeps."
+		""
+		"You can enable a Fortune hoe, bone meal and tilling inside the area. The villager gains XP for planting."
+	]
+	quest.752A54B77F0CE7A8.title: "&aFarmer: manual farming"
+	quest.17A0AA9A45B5160A.quest_desc: [
+		"A villager can repeat actions you taught it on a chat phrase."
+		""
+		"1) Open the villager menu and choose &6Custom Commands → Teach&r."
+		"2) It follows you. Right-click it to open the teach menu: &ewaypoint&r, &einteract&r (button, lever, door), &ewithdraw from chest&r, &edeposit into chest&r, &ewait&r."
+		"3) Save and set the chat phrase."
+		""
+		"Start simple: a few waypoints and one action."
+	]
+	quest.17A0AA9A45B5160A.title: "&aTeachings: recorded actions"
+	quest.4C5D7C3E1A9D948E.quest_desc: [
+		"If a recruited villager dies, the mod saves a snapshot and you can bring it back."
+		""
+		"1) Hold an &aemerald&r in your main hand."
+		"2) &6Right-click&r a &eRespawn Anchor&r."
+		"3) Pick the villager from the list and pay the shown price."
+		""
+		"The price depends on the recruit cost at the time of death. The &6Purge&r button removes unwanted snapshots."
+	]
+	quest.4C5D7C3E1A9D948E.title: "&aRespawn a villager"
+	quest.7FFEC5E540B3A6EA.quest_desc: [
+		"&6Family Name Deed&r is a mod item tied to villagers' names and families (the mod keeps a family tree of villagers)."
+		""
+		"Recipe: &7paper, ink sac, paper in the top row and an emerald under it&r (PIP /  E )."
+		""
+		"&7Use the item on a recruited villager; details are shown in its menu.&r"
+	]
+	quest.7FFEC5E540B3A6EA.title: "&aFamily Name Deed"
+	quest.7C8A486F23426641.quest_desc: [
+		"All the mod's costs are paid in emeralds. The &6Emerald Pouch&r stores emeralds (Curios slot “Pouch”), and the mod can pay with them."
+		""
+		"Recipe: &7leather around, string in the top row and an emerald in the center&r (LSL / LEL / LLL)."
+		""
+		"The emerald count is shown in the interface."
+	]
+	quest.7C8A486F23426641.title: "&aEmerald Pouch"
 }

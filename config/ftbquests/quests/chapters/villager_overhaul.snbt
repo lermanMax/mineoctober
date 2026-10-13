@@ -1,0 +1,239 @@
+{
+	autofocus_id: "4B5A3C2C4D8B944C"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "villager_overhaul"
+	group: "1386914329D4D3B7"
+	icon: {
+		id: "minecraft:villager_spawn_egg"
+	}
+	id: "6A8EFC5A2B306728"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1F6BC8C2A5B8F9B2"]
+			hide_until_deps_complete: true
+			icon: { id: "minecraft:villager_spawn_egg" }
+			id: "4B5A3C2C4D8B944C"
+			rewards: [{
+				id: "45D3DD3F58BEB2E5"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "58A88B9D3AA4EB92"
+				type: "checkmark"
+			}]
+			x: 0d
+			y: 0d
+		}
+		{
+			dependencies: ["4B5A3C2C4D8B944C"]
+			hide_until_deps_complete: true
+			icon: { id: "minecraft:emerald" }
+			id: "59218F6D165C8383"
+			rewards: [{
+				id: "44F8544D2B3FB7C3"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "rsquare"
+			tasks: [{
+				count: 8L
+				id: "1AC13DB77EEC64AB"
+				item: { count: 1, id: "minecraft:emerald" }
+				type: "item"
+			}]
+			x: 0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["59218F6D165C8383"]
+			hide_until_deps_complete: true
+			icon: { id: "villageroverhaul:trading_hall" }
+			id: "15F54482133DC889"
+			rewards: [{
+				id: "1E3631C244B5F508"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "421636BB3F20BB2E"
+				item: { count: 1, id: "villageroverhaul:trading_hall" }
+				type: "item"
+			}]
+			x: -3d
+			y: 2.5d
+		}
+		{
+			dependencies: ["59218F6D165C8383"]
+			hide_until_deps_complete: true
+			icon: { id: "minecraft:lectern" }
+			id: "4A24D9F7710CA171"
+			rewards: [{
+				id: "624A3C70709EB06E"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "5ED2EAE940BCA79D"
+				type: "checkmark"
+			}]
+			x: -3d
+			y: 5d
+		}
+		{
+			dependencies: ["4A24D9F7710CA171"]
+			hide_until_deps_complete: true
+			icon: { id: "minecraft:hopper" }
+			id: "14BC7C1554C2EDD6"
+			rewards: [{
+				id: "277D3C72480DEF3A"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "58BFECFF286DE883"
+				type: "checkmark"
+			}]
+			x: -3d
+			y: 7.5d
+		}
+		{
+			dependencies: ["59218F6D165C8383"]
+			hide_until_deps_complete: true
+			icon: { id: "minecraft:iron_sword" }
+			id: "27644EF428571EC7"
+			rewards: [{
+				id: "1A3725DA68977F5F"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "2EB56F5272B2DE40"
+				type: "checkmark"
+			}]
+			x: 0d
+			y: 5d
+		}
+		{
+			dependencies: ["27644EF428571EC7"]
+			hide_until_deps_complete: true
+			icon: { id: "minecraft:bell" }
+			id: "47A35CC3499A84B4"
+			rewards: [{
+				id: "6B9A12B04F19EEF6"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "14519F831B5A4FA0"
+				type: "checkmark"
+			}]
+			x: 0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["59218F6D165C8383"]
+			hide_until_deps_complete: true
+			icon: { id: "minecraft:diamond_hoe" }
+			id: "752A54B77F0CE7A8"
+			rewards: [{
+				id: "59E26AB94F7863AC"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "283E671B37E9B043"
+				type: "checkmark"
+			}]
+			x: 3d
+			y: 5d
+		}
+		{
+			dependencies: ["752A54B77F0CE7A8"]
+			hide_until_deps_complete: true
+			icon: { id: "minecraft:writable_book" }
+			id: "17A0AA9A45B5160A"
+			rewards: [{
+				id: "100F6DEE79825AE8"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "37B79AB51B472F5F"
+				type: "checkmark"
+			}]
+			x: 3d
+			y: 7.5d
+		}
+		{
+			dependencies: ["59218F6D165C8383"]
+			hide_until_deps_complete: true
+			icon: { id: "minecraft:respawn_anchor" }
+			id: "4C5D7C3E1A9D948E"
+			rewards: [{
+				id: "35E86F7D7110EF68"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6B4157DB6809DB2E"
+				item: { count: 1, id: "minecraft:respawn_anchor" }
+				type: "item"
+			}]
+			x: 3d
+			y: 2.5d
+		}
+		{
+			dependencies: ["59218F6D165C8383"]
+			hide_until_deps_complete: true
+			icon: { id: "villageroverhaul:family_name_deed" }
+			id: "7FFEC5E540B3A6EA"
+			rewards: [{
+				id: "678815B62CA13586"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6EDF470F52B34E7C"
+				item: { count: 1, id: "villageroverhaul:family_name_deed" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 10d
+		}
+		{
+			dependencies: ["59218F6D165C8383"]
+			hide_until_deps_complete: true
+			icon: { id: "ezemeraldpouch:emerald_pouch" }
+			id: "7C8A486F23426641"
+			rewards: [{
+				id: "777D5E6A549BAD0D"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "7906A2AD597EB75B"
+				item: { count: 1, id: "ezemeraldpouch:emerald_pouch" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 10d
+		}
+	]
+}
