@@ -67,7 +67,7 @@
 - Технологии и магия ([Create](https://modrinth.com/mod/create), [Pastel](https://modrinth.com/mod/pastel-mod), [Iron's Spells 'n Spellbooks](https://modrinth.com/mod/irons-spells-n-spellbooks), [Hexerei](https://modrinth.com/mod/hexerei) и другие)
 - Новая генерация мира ([Terralith](https://modrinth.com/datapack/terralith), [Tectonic](https://modrinth.com/mod/tectonic), [Nullscape](https://modrinth.com/mod/nullscape), [Oh The Biomes We've Gone](https://modrinth.com/mod/oh-the-biomes-weve-gone), [Incendium](https://modrinth.com/datapack/incendium))
 - Структуры Yung's и Moog's, переработанные крепости и форты
-- Профессии (Jobs+), сезоны ([Serene Seasons](https://modrinth.com/mod/serene-seasons)), деревенские жители (Villager Overhaul)
+- Профессии (Jobs+), сезоны ([Serene Seasons](https://modrinth.com/mod/serene-seasons)), найм и развитие жителей ([Villager Overhaul](https://modrinth.com/mod/villager-overhaul) от Z2SIX)
 - Сокровища и полезные предметы ([Artifacts](https://modrinth.com/mod/artifacts), [Relics](https://modrinth.com/mod/relics-mod))
 - Магические деревья навыков ([Pufferfish's Skills](https://modrinth.com/mod/skills))
 - Система питания ([NutritionZ](https://modrinth.com/mod/nutritionz))
