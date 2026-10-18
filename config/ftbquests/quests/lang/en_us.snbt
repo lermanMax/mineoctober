@@ -6129,8 +6129,8 @@
 		""
 		"Only the owner can control a recruited villager (checked by the server)."
 		""
-		"&6Selective breeding:&r baby villagers inherit each of their 12 stats from one of the parents with a small random variance. Breed your best villagers and the offspring gets stronger."
-		"&7To breed you need two adult villagers, food (bread, carrots, potatoes or beetroot, you can throw it to them) and free beds nearby.&r"
+		"&6Inheritance:&r baby villagers inherit each of their 12 stats from one of the parents with a small random variance. Build a family from your best villagers and the offspring gets stronger."
+		"&7Details: the quest “Family and offspring”.&r"
 	]
 	quest.59218F6D165C8383.title: "&aRecruit a villager"
 	quest.15F54482133DC889.quest_desc: [
@@ -6226,4 +6226,19 @@
 		"The emerald count is shown in the interface."
 	]
 	quest.7C8A486F23426641.title: "&aEmerald Pouch"
+	quest.3F1DE0F95F80E55E.quest_desc: [
+		"Villagers can start families: babies are born and inherit their parents' stats and surname."
+		""
+		"&6What you need:&r"
+		"&6•&r two adult villagers close to each other"
+		"&6•&r food: bread, carrots, potatoes or beetroot (you can throw it to them, farmers share food too)"
+		"&6•&r free beds nearby: each baby needs one more unoccupied bed"
+		""
+		"&6What is inherited:&r each of the 12 stats from one of the parents with a small random variance. Put your best villagers in the family and new generations get stronger. Children take their parents' surname (you can change it with the Family Name Deed)."
+		""
+		"A baby grows for about 20 minutes, and a pair has a pause of a few minutes between babies."
+		""
+		"&7If a recruited villager is in follow, patrol or manual farming mode, it may not start a family: switch it to the normal mode. The baby most likely has to be recruited separately once grown.&r"
+	]
+	quest.3F1DE0F95F80E55E.title: "&aFamily and offspring"
 }

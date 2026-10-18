@@ -235,5 +235,23 @@
 			x: 1.5d
 			y: 10d
 		}
+		{
+			dependencies: ["59218F6D165C8383"]
+			hide_until_deps_complete: true
+			icon: { id: "minecraft:white_bed" }
+			id: "3F1DE0F95F80E55E"
+			rewards: [{
+				id: "757D8A806406E8E6"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "12C927435512C200"
+				type: "checkmark"
+			}]
+			x: 6d
+			y: 2.5d
+		}
 	]
 }
