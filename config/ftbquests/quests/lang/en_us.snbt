@@ -6181,6 +6181,7 @@
 		"&6Area&r: around the workstation (any block can be set) with a radius limited by the Ranger stat."
 		"&6Rules&r: what to plant and what to harvest (modded items work). Nether wart is planted on soul sand."
 		"&6Chests&r: register a deposit chest and a withdraw chest and set in the rules how many stacks the villager keeps."
+		"&cImportant:&r the mod only accepts a &evanilla chest&r, trapped chest and ender chest. Sophisticated Storage chests do not work. You get a vanilla chest by putting a Sophisticated chest into the crafting grid. The chest must be inside the villager's work area."
 		""
 		"You can enable a Fortune hoe, bone meal and tilling inside the area. The villager gains XP for planting."
 	]
