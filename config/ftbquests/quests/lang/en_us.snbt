@@ -6214,7 +6214,8 @@
 		""
 		"Recipe: &7paper, ink sac, paper in the top row and an emerald under it&r (PIP /  E )."
 		""
-		"&7Use the item on a recruited villager; details are shown in its menu.&r"
+		"&6How to use:&r hold the deed and &6right-click&r &eyour own recruited villager&r: a last-name window opens."
+		"Newborn villagers inherit their parents' surname, and the links between them are shown in the &efamily tree&r in the villager info window."
 	]
 	quest.7FFEC5E540B3A6EA.title: "&aFamily Name Deed"
 	quest.7C8A486F23426641.quest_desc: [
