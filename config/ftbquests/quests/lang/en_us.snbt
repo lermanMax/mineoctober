@@ -6128,6 +6128,9 @@
 		"&7Tip: check the stats first. A good merchant, guard or farmer costs more.&r"
 		""
 		"Only the owner can control a recruited villager (checked by the server)."
+		""
+		"&6Selective breeding:&r baby villagers inherit each of their 12 stats from one of the parents with a small random variance. Breed your best villagers and the offspring gets stronger."
+		"&7To breed you need two adult villagers, food (bread, carrots, potatoes or beetroot, you can throw it to them) and free beds nearby.&r"
 	]
 	quest.59218F6D165C8383.title: "&aRecruit a villager"
 	quest.15F54482133DC889.quest_desc: [
